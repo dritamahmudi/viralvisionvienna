@@ -7,7 +7,7 @@ $primary1: #d8bf36;
 $primary2: #041858;
 
 @mixin main-font {
-  font-family: "Antonio";
+  font-family: "Antonio", sans-serif;
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
