@@ -165,7 +165,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #832eff;
+  background-color: #ffffff;
   margin: 7px 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -360,18 +360,18 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: ##ff4ff3;
+  background-color:  #d9acfc;
   color: #832eff;
   border-radius: 30px;
   margin: 25px 0 45px 0;
 }
 
 .about_section .detail-box a:hover {
-  background-color: #e0cd61;
+  background-color: #ff4ff3;
 }
 
 .service_section {
-  background-color: #041858;
+  background-color:  #d9acfc;
   color: #832eff;
   text-align: center;
 }
