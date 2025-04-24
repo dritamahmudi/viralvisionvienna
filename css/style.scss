@@ -1,5 +1,8 @@
 $white: #ffffff;
 $black: #000000;
+$purpel: #832eff;
+$pink: #ff4ff3;
+$pinkhell: #d9acfc;
 $primary1: #d8bf36;
 $primary2: #041858;
 
@@ -263,7 +266,7 @@ a:focus {
   }
 
   .detail_box {
-    color: $white;
+    color: $purpel;
 
     h1 {
       font-size: 4rem;
@@ -280,11 +283,11 @@ a:focus {
         margin: 5px;
 
         &.btn-1 {
-          @include hero_btn($primary1, $white, 8px, 0, 30px);
+          @include hero_btn($primary1, $purpel, 8px, 0, 30px);
         }
 
         &.btn-2 {
-          @include hero_btn($white, $black, 8px, 0, 30px);
+          @include hero_btn($white, $purpel, 8px, 0, 30px);
         }
       }
     }
