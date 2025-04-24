@@ -1,4 +1,4 @@
-$white: #ffffff;
+$purpel: #ffffff;
 $black: #000000;
 $purpel: #832eff;
 $pink: #ff4ff3;
@@ -120,7 +120,7 @@ body {
       .nav-link {
         padding: 3px 15px;
         margin: 10px 15px;
-        color: $white;
+        color: $purpel;
         text-align: center;
         border-radius: 20px;
       }
@@ -169,7 +169,7 @@ a:focus {
   span {
     font-size: 24px;
     font-weight: 700;
-    color: $white;
+    color: $purpel;
     text-transform: uppercase;
   }
 }
@@ -195,7 +195,7 @@ a:focus {
     display: block;
     width: 35px;
     height: 4px;
-    background-color: $white;
+    background-color: $purpel;
     margin: 7px 0;
     transition: all .3s;
   }
@@ -235,7 +235,7 @@ a:focus {
   align-items: center;
 
   a {
-    color: $white;
+    color: $purpel;
     margin-right: 25px;
 
     img {
@@ -287,7 +287,7 @@ a:focus {
         }
 
         &.btn-2 {
-          @include hero_btn($white, $purpel, 8px, 0, 30px);
+          @include hero_btn($purpel, $purpel, 8px, 0, 30px);
         }
       }
     }
@@ -365,7 +365,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary1, $white, 10px, 35px, 30px);
+      @include hero_btn($primary1, $purpel, 10px, 35px, 30px);
       margin: 25px 0 45px 0;
     }
   }
@@ -377,7 +377,7 @@ a:focus {
 
 .service_section {
   background-color: $primary2;
-  color: $white;
+  color: $purpel;
   text-align: center;
 
   .heading_container {
@@ -400,7 +400,7 @@ a:focus {
         justify-content: center;
         align-items: center;
         height: 200px;
-        background-color: $white;
+        background-color: $purpel;
         border-radius: 15px;
 
         img {
@@ -424,7 +424,7 @@ a:focus {
     justify-content: center;
 
     a {
-      @include hero_btn($primary1, $white, 10px, 35px, 30px);
+      @include hero_btn($primary1, $purpel, 10px, 35px, 30px);
     }
   }
 }
@@ -483,7 +483,7 @@ a:focus {
     display: flex;
 
     a {
-      @include hero_btn($primary1, $white, 10px, 25px, 30px);
+      @include hero_btn($primary1, $purpel, 10px, 25px, 30px);
     }
   }
 }
@@ -559,7 +559,7 @@ a:focus {
     justify-content: center;
 
     a {
-      @include hero_btn($primary1, $white, 10px, 35px, 30px);
+      @include hero_btn($primary1, $purpel, 10px, 35px, 30px);
     }
   }
 }
@@ -639,7 +639,7 @@ a:focus {
 
 // contact section
 .contact_section {
-  color: $white;
+  color: $purpel;
 
   .heading_container {
     align-items: center;
@@ -650,7 +650,7 @@ a:focus {
 
     .form-control {
       border: none;
-      background-color: $white;
+      background-color: $purpel;
       outline: none;
       box-shadow: none;
       border-radius: 30px;
@@ -662,7 +662,7 @@ a:focus {
   }
 
   button {
-    @include hero_btn($primary1, $white, 8px, 35px, 30px);
+    @include hero_btn($primary1, $purpel, 8px, 35px, 30px);
     text-transform: uppercase;
     border: none;
     box-shadow: none;
@@ -677,7 +677,7 @@ a:focus {
 
 // info section
 .info_section {
-  color: $white;
+  color: $purpel;
 
   p {
     color: #9c9c9c;
@@ -721,7 +721,7 @@ a:focus {
 
       &:hover {
         p {
-          color: $white;
+          color: $purpel;
         }
 
 
@@ -760,13 +760,13 @@ a:focus {
           }
 
           &:hover {
-            color: $white;
+            color: $purpel;
           }
         }
 
         &.active {
           a {
-            color: $white;
+            color: $purpel;
 
             &::before {
               display: block;
@@ -788,7 +788,7 @@ a:focus {
         outline: none;
         width: 100%;
         padding: 7px 10px;
-        color: $white;
+        color: $purpel;
 
         &::placeholder {
           color: #9c9c9c;
@@ -796,7 +796,7 @@ a:focus {
       }
 
       button {
-        @include hero_btn($primary1, $white, 8px, 30px, 5px);
+        @include hero_btn($primary1, $purpel, 8px, 30px, 5px);
         margin-top: 15px;
         text-transform: uppercase;
         font-size: 15px;
@@ -829,7 +829,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: $white;
+  color: $purpel;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
@@ -837,7 +837,7 @@ a:focus {
 
 .footer_section {
   a {
-    color: $white;
+    color: $purpel;
   }
 }
 
