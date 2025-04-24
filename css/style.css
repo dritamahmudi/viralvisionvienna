@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #832eff;
 }
 
 .layout_padding {
@@ -71,12 +71,12 @@ body {
 .sub_page .hero_area {
   height: auto;
   background: none;
-  background-color: #041858;
+  background-color: #d9acfc;
 }
 
 .sub_page .footer_bg {
   background: none;
-  background-color: #041858;
+  background-color: #d9acfc;
   padding-top: 45px;
 }
 
@@ -92,13 +92,13 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 3px 15px;
   margin: 10px 15px;
-  color: #ffffff;
+  color: #832eff;
   text-align: center;
   border-radius: 20px;
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link, .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
-  background-color: #d8bf36;
+  background-color: #a437db;
 }
 
 a,
@@ -137,7 +137,7 @@ a:focus {
 .navbar-brand span {
   font-size: 24px;
   font-weight: 700;
-  color: #ffffff;
+  color: #832eff;
   text-transform: uppercase;
 }
 
@@ -165,7 +165,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #832eff;
   margin: 7px 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -206,7 +206,7 @@ a:focus {
 }
 
 .quote_btn-container a {
-  color: #ffffff;
+  color: #832eff;
   margin-right: 25px;
 }
 
@@ -265,7 +265,7 @@ a:focus {
   display: inline-block;
   padding: 8px 0;
   background-color: #d8bf36;
-  color: #ffffff;
+  color: #832eff;
   border-radius: 30px;
 }
 
@@ -276,7 +276,7 @@ a:focus {
 .slider_section .detail_box .btn-box a.btn-2 {
   display: inline-block;
   padding: 8px 0;
-  background-color: #ffffff;
+  background-color: #832eff;
   color: #000000;
   border-radius: 30px;
 }
@@ -361,7 +361,7 @@ a:focus {
   display: inline-block;
   padding: 10px 35px;
   background-color: #d8bf36;
-  color: #ffffff;
+  color: #832eff;
   border-radius: 30px;
   margin: 25px 0 45px 0;
 }
@@ -372,7 +372,7 @@ a:focus {
 
 .service_section {
   background-color: #041858;
-  color: #ffffff;
+  color: #832eff;
   text-align: center;
 }
 
@@ -411,7 +411,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   height: 200px;
-  background-color: #ffffff;
+  background-color: #832eff;
   border-radius: 15px;
 }
 
@@ -441,7 +441,7 @@ a:focus {
   display: inline-block;
   padding: 10px 35px;
   background-color: #d8bf36;
-  color: #ffffff;
+  color: #832eff;
   border-radius: 30px;
 }
 
@@ -507,7 +507,7 @@ a:focus {
   display: inline-block;
   padding: 10px 25px;
   background-color: #d8bf36;
-  color: #ffffff;
+  color: #832eff;
   border-radius: 30px;
 }
 
@@ -605,7 +605,7 @@ a:focus {
   display: inline-block;
   padding: 10px 35px;
   background-color: #d8bf36;
-  color: #ffffff;
+  color: #832eff;
   border-radius: 30px;
 }
 
@@ -698,7 +698,7 @@ a:focus {
 
 .contact_section form .form-control {
   border: none;
-  background-color: #ffffff;
+  background-color: #832eff;
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -712,7 +712,7 @@ a:focus {
   display: inline-block;
   padding: 8px 35px;
   background-color: #d8bf36;
-  color: #ffffff;
+  color: #832eff;
   border-radius: 30px;
   text-transform: uppercase;
   border: none;
@@ -728,7 +728,7 @@ a:focus {
 }
 
 .info_section {
-  color: #ffffff;
+  color: #832eff;
 }
 
 .info_section p {
@@ -774,7 +774,7 @@ a:focus {
 }
 
 .info_section .info_contact a:hover p {
-  color: #ffffff;
+  color: #832eff;
 }
 
 .info_section .info_contact a img {
@@ -811,11 +811,11 @@ a:focus {
 }
 
 .info_section .info_links ul li a:hover {
-  color: #ffffff;
+  color: #832eff;
 }
 
 .info_section .info_links ul li.active a {
-  color: #ffffff;
+  color: #832eff;
 }
 
 .info_section .info_links ul li.active a::before {
@@ -832,7 +832,7 @@ a:focus {
   outline: none;
   width: 100%;
   padding: 7px 10px;
-  color: #ffffff;
+  color: #832eff;
 }
 
 .info_section .info_form form input::-webkit-input-placeholder {
@@ -855,7 +855,7 @@ a:focus {
   display: inline-block;
   padding: 8px 30px;
   background-color: #d8bf36;
-  color: #ffffff;
+  color: #832eff;
   border-radius: 5px;
   margin-top: 15px;
   text-transform: uppercase;
@@ -892,13 +892,13 @@ a:focus {
 }
 
 .footer_section p {
-  color: #ffffff;
+  color: #832eff;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
 }
 
 .footer_section a {
-  color: #ffffff;
+  color: #832eff;
 }
 /*# sourceMappingURL=style.css.map */
