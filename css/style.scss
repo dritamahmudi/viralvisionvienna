@@ -1,4 +1,4 @@
-$purpel: #ffffff;
+$white: #ffffff;
 $black: #000000;
 $purpel: #832eff;
 $pink: #ff4ff3;
@@ -195,7 +195,7 @@ a:focus {
     display: block;
     width: 35px;
     height: 4px;
-    background-color: $purpel;
+    background-color: $white;
     margin: 7px 0;
     transition: all .3s;
   }
@@ -650,7 +650,7 @@ a:focus {
 
     .form-control {
       border: none;
-      background-color: $purpel;
+      background-color: $white;
       outline: none;
       box-shadow: none;
       border-radius: 30px;
