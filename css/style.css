@@ -703,7 +703,7 @@ a:focus {
 }
 
 .contact_section {
-  color: #000000;
+  color: #832eff;
 }
 
 .contact_section .heading_container {
@@ -749,7 +749,7 @@ a:focus {
 }
 
 .info_section p {
-  color: #9c9c9c;
+  color: #000000;
 }
 
 .info_section .info_logo h3 {
@@ -787,7 +787,7 @@ a:focus {
 }
 
 .info_section .info_contact a p {
-  color: #9c9c9c;
+  color: #000000;
 }
 
 .info_section .info_contact a:hover p {
@@ -809,7 +809,7 @@ a:focus {
 }
 
 .info_section .info_links ul li a {
-  color: #9c9c9c;
+  color: #000000;
   position: relative;
 }
 
@@ -824,15 +824,15 @@ a:focus {
   border-radius: 100%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: ##ff4ff3;
+  background-color: #832eff;
 }
 
 .info_section .info_links ul li a:hover {
-  color: #832eff;
+  color: #ff4ff3;
 }
 
 .info_section .info_links ul li.active a {
-  color: #832eff;
+  color: #ff4ff3;
 }
 
 .info_section .info_links ul li.active a::before {
@@ -853,25 +853,25 @@ a:focus {
 }
 
 .info_section .info_form form input::-webkit-input-placeholder {
-  color: #9c9c9c;
+  color: #000000;
 }
 
 .info_section .info_form form input:-ms-input-placeholder {
-  color: #9c9c9c;
+  color: #000000;
 }
 
 .info_section .info_form form input::-ms-input-placeholder {
-  color: #9c9c9c;
+  color: #000000;
 }
 
 .info_section .info_form form input::placeholder {
-  color: #9c9c9c;
+  color: #000000;
 }
 
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 30px;
-  background-color: ##ff4ff3;
+  background-color: #ff4ff3;
   color: #832eff;
   border-radius: 5px;
   margin-top: 15px;
@@ -882,7 +882,7 @@ a:focus {
 }
 
 .info_section .info_form form button:hover {
-  background-color: #e0cd61;
+  background-color: #ff4ff3;
 }
 
 .info_section .info_form .social_box {
