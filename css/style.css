@@ -458,7 +458,7 @@ a:focus {
   background-color: #ff4ff3;
 }
 
-.service_section.hero_area {
+.service_section .hero_area {
   height: 98vh;
   position: relative;
   background-image: url(../images/vvv-bg.png);
