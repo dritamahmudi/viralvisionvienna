@@ -390,7 +390,6 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .service_section .service_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -398,15 +397,16 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 35px 60px;
+  padding: 15px;
+  flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .service_section .service_container .box {
-  margin: 25px 10px;
+  margin: 15px 0;
   min-width: 200px;
-  width: 250px;
+  width: 100%;
 }
 
 .service_section .service_container .box .img-box {
