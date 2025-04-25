@@ -427,13 +427,6 @@ a:focus {
         }
       }
     }
- .hero_area {
-  height: 98vh;
-  position: relative;
-  background-image: url(../images/vvv-bg.png);
-  background-size: cover;
-  background-position: bottom;
-}
   }
 
   .btn-box {
@@ -443,6 +436,13 @@ a:focus {
     a {
       @include hero_btn($primary1, $purpel, 10px, 35px, 30px);
     }
+  }
+ .hero_area{
+  height: 98vh;
+  position: relative;
+  background-image: url(../images/vvv-bg.png);
+  background-size: cover;
+  background-position: bottom;
   }
 }
 
