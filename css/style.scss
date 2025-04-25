@@ -656,7 +656,7 @@ a:focus {
 
 // contact section
 .contact_section {
-  color: $black;
+  color: $purpel;
 
   .heading_container {
     align-items: center;
@@ -697,7 +697,7 @@ a:focus {
   color: $purpel;
 
   p {
-    color: #9c9c9c;
+    color: #000000;
   }
 
   .info_logo {
@@ -732,7 +732,7 @@ a:focus {
       margin: 20px 0;
 
       p {
-        color: #9c9c9c;
+        color: $black;
       }
 
 
@@ -760,7 +760,7 @@ a:focus {
         margin: 5px 0;
 
         a {
-          color: #9c9c9c;
+          color: $black;
           position: relative;
 
           &::before {
@@ -773,17 +773,17 @@ a:focus {
             height: 10px;
             border-radius: 100%;
             transform: translateY(-50%);
-            background-color: $primary1;
+            background-color: $purpel;
           }
 
           &:hover {
-            color: $purpel;
+            color: $pink;
           }
         }
 
         &.active {
           a {
-            color: $purpel;
+            color: $pink;
 
             &::before {
               display: block;
@@ -800,7 +800,7 @@ a:focus {
       margin-top: 20px;
 
       input {
-        border: 1px solid #a6adc4;
+        border: 1px solid #000000;
         background-color: transparent;
         outline: none;
         width: 100%;
@@ -808,12 +808,12 @@ a:focus {
         color: $purpel;
 
         &::placeholder {
-          color: #9c9c9c;
+          color: $black;
         }
       }
 
       button {
-        @include hero_btn($primary1, $purpel, 8px, 30px, 5px);
+        @include hero_btn ( $pink, $purpel, 8px, 30px, 5px);
         margin-top: 15px;
         text-transform: uppercase;
         font-size: 15px;
