@@ -51,7 +51,7 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #white;
+  background-color: #000000;
   top: 50%;
   right: -30px;
   border-radius: 100%;
@@ -703,7 +703,7 @@ a:focus {
 }
 
 .contact_section {
-  color: #ffffff;
+  color: #000000;
 }
 
 .contact_section .heading_container {
@@ -728,8 +728,8 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 8px 35px;
-  background-color: ##ff4ff3;
-  color: #832eff;
+  background-color: #d9acfc;
+  color: #000000;
   border-radius: 30px;
   text-transform: uppercase;
   border: none;
@@ -741,7 +741,7 @@ a:focus {
 }
 
 .contact_section button:hover {
-  background-color: #e0cd61;
+  background-color: #ff4ff3;
 }
 
 .info_section {
