@@ -331,7 +331,7 @@ a:focus {
 
 .slider_section .carousel_btn-container .carousel-control-prev:hover,
 .slider_section .carousel_btn-container .carousel-control-next:hover {
-  background-color: #041858;
+  background-color: #ff4ff3;
 }
 
 .slider_section .carousel_btn-container .carousel-control-prev {
@@ -412,7 +412,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   height: 200px;
-  background-color: #832eff;
+  background-color: #ffffff;
   border-radius: 15px;
 }
 
@@ -447,7 +447,7 @@ a:focus {
 }
 
 .service_section .btn-box a:hover {
-  background-color: #e0cd61;
+  background-color: #ff4ff3;
 }
 
 .work_section .heading_container {
@@ -507,13 +507,13 @@ a:focus {
 .work_section .btn-box a {
   display: inline-block;
   padding: 10px 25px;
-  background-color: ##ff4ff3;
+  background-color: #ff4ff3;
   color: #832eff;
   border-radius: 30px;
 }
 
 .work_section .btn-box a:hover {
-  background-color: #e0cd61;
+  background-color: ##ff4ff3;
 }
 
 .team_section {
@@ -663,12 +663,12 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center;
-  background-color: ##ff4ff3;
+  background-color: #ff4ff3;
 }
 
 .client_section .carousel_btn-container .carousel-control-prev:hover,
 .client_section .carousel_btn-container .carousel-control-next:hover {
-  background-color: #041858;
+  background-color: #ff4ff3;
 }
 
 .client_section .carousel_btn-container .carousel-control-prev {
