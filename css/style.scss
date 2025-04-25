@@ -427,6 +427,13 @@ a:focus {
         }
       }
     }
+ .hero_area {
+  height: 98vh;
+  position: relative;
+  background-image: url(../images/vvv-bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
   }
 
   .btn-box {
