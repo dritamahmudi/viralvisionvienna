@@ -98,7 +98,7 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link, .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
-  background-color: #ff4ff3;
+  background-color: #d9acfc;
 }
 
 a,
@@ -109,7 +109,7 @@ a:focus {
 
 a:hover,
 a:focus {
-  color: initial;
+  color: #ff4ff3;
 }
 
 .btn,
