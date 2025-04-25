@@ -71,12 +71,12 @@ body {
 .sub_page .hero_area {
   height: auto;
   background: none;
-  background-color: #d9acfc;
+  background-color: #ffffff;
 }
 
 .sub_page .footer_bg {
   background: none;
-  background-color: #d9acfc;
+  background-color: #ffffff;
   padding-top: 45px;
 }
 
@@ -370,6 +370,14 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #ff4ff3;
 }
+.about_section .hero_area {
+  height: 98vh;
+  position: relative;
+  background-image: url(../images/vvv-bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
 
 .service_section {
   background-color:  #d9acfc;
