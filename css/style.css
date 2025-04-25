@@ -458,6 +458,14 @@ a:focus {
   background-color: #ff4ff3;
 }
 
+.service_section.hero_area {
+  height: 98vh;
+  position: relative;
+  background-image: url(../images/vvv-bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
 .work_section .heading_container {
   margin-bottom: 45px;
 }
