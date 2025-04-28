@@ -146,6 +146,7 @@
   .service_section {
     text-align: center;
     padding: 20px;
+     margin-bottom: 50px;
   }
 
   .service_section .service_container {
@@ -167,6 +168,8 @@
   .service_section .service_box .detail {
     margin-top: 15px;
   }
+   .contact_section {
+    margin-top: 50px; /* Abstand zur vorherigen Section */
 }
 
 @media (max-width: 576px) {
