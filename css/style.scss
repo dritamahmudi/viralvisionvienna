@@ -398,11 +398,10 @@ a:focus {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 15px;
-    flex-direction: column;
+    padding: 35px 60px;
 
     .box {
-      margin: 15px 0;
+      margin: 25px 10px;
       min-width: 200px;
       width: 100%;
 
@@ -435,7 +434,7 @@ a:focus {
     justify-content: center;
 
     a {
-      @include hero_btn($primary1, $purpel, 10px, 35px, 30px);
+      @include hero_btn($pink, $purpel, 10px, 35px, 30px);
     }
   }
  .hero_area{
