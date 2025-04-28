@@ -403,7 +403,7 @@ a:focus {
 }
 
 .service_section .service_container .box {
-  margin: 15px 0;
+  margin: 25px 10px;
   min-width: 200px;
   width: 250px;
 }
