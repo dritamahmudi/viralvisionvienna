@@ -403,9 +403,9 @@ a:focus {
 }
 
 .service_section .service_container .box {
-  margin: 25px 10px;
+  margin: 15px 0;
   min-width: 200px;
-  width: 250px;
+  width: 100%;
 }
 
 .service_section .service_container .box .img-box {
@@ -418,7 +418,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 200px;
+  height: auto;
   background-color: #ffffff;
   border-radius: 15px;
 }
@@ -464,6 +464,7 @@ a:focus {
   background-size: cover;
   background-position: bottom;
 }
+
 
 .work_section .heading_container {
   margin-bottom: 45px;
