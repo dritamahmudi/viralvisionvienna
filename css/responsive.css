@@ -138,7 +138,7 @@
 @media (max-width: 360px) {}
 
 @media (min-width: 1200px) {
-  .container {
+  .container .service_container{
     max-width: 1170px;
   }
 }
