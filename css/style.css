@@ -418,9 +418,9 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: auto;
   background-color: #ffffff;
   border-radius: 15px;
+  position: relative;
 }
 
 .service_section .service_container .box .img-box img {
