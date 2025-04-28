@@ -106,7 +106,9 @@
 
   .footer_bg {
     padding-top: 75px;
+    flex-direction: column;
   }
+
 
   .info_section .row>div {
     display: flex;
