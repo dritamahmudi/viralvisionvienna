@@ -69,9 +69,11 @@ body {
 }
 
 .sub_page .hero_area {
-  height: auto;
-  background: none;
-  background-color: #ffffff;
+  height: 98vh;
+  position: relative;
+  background-image: url(../images/vvv-bg.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .sub_page .footer_bg {
