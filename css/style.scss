@@ -91,9 +91,11 @@ body {
 
 .sub_page {
   .hero_area {
-    height: auto;
-    background: none;
-    background-color: $white;
+  height: 98vh;
+  position: relative;
+  background-image: url(../images/vvv-bg.png);
+  background-size: cover;
+  background-position: bottom;
   }
 
   .footer_bg {
