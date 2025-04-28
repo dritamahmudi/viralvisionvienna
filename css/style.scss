@@ -388,8 +388,11 @@ a:focus {
 // service section
 
 .service_section {
-  background-color: #white;
-  color: $purpel;
+   height: 98vh;
+  background-image: url(../images/vvv-bg.png);
+  background-size: cover;
+  background-position: bottom;
+  color: #832eff;
   text-align: center;
 
   .heading_container {
@@ -413,7 +416,6 @@ a:focus {
         align-items: center;
         background-color: $white;
         border-radius: 15px;
-        position: relative;
 
         img {
           width: 75px;
