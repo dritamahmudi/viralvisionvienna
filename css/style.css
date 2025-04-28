@@ -704,6 +704,7 @@ a:focus {
   background-size: cover;
   background-position: right top;
   padding-top: 250px;
+  overflow: hidden;
 }
 
 .contact_section {
@@ -909,7 +910,6 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
 }
 
 .footer_section p {
