@@ -409,9 +409,9 @@ a:focus {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: auto;
         background-color: $white;
         border-radius: 15px;
+        position: relative;
 
         img {
           width: 75px;
