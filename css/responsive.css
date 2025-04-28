@@ -138,7 +138,7 @@
 @media (max-width: 360px) {}
 
 @media (min-width: 1200px) {
-  .container .service_container{
+  .container .service_container .container-fluid{
     max-width: 1170px;
   }
 }
