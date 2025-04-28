@@ -383,7 +383,6 @@ a:focus {
 
 .service_section {
   height: 98vh;
-  position: relative;
   background-image: url(../images/vvv-bg.png);
   background-size: cover;
   background-position: bottom;
