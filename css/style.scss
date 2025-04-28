@@ -102,6 +102,7 @@ body {
     background: none;
     background-color: $white;
     padding-top: 45px;
+    overflow: hidden;
   }
 }
 
@@ -846,7 +847,6 @@ a:focus {
 .footer_section {
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .footer_section p {
