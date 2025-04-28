@@ -382,7 +382,11 @@ a:focus {
 
 
 .service_section {
-  background-color:  #ffffff;
+  height: 98vh;
+  position: relative;
+  background-image: url(../images/vvv-bg.png);
+  background-size: cover;
+  background-position: bottom;
   color: #832eff;
   text-align: center;
 }
