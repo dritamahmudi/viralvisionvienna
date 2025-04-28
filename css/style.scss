@@ -863,3 +863,21 @@ a:focus {
 }
 
 // end footer section
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
