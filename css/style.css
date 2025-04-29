@@ -594,7 +594,7 @@ a:focus {
   border-radius: 25px;
   -webkit-transform: translateX(-52.5%) rotate(-15deg);
           transform: translateX(-52.5%) rotate(-15deg);
-  background-color: #041858;
+  background-color: #ffffff;
 }
 
 .team_section .team_container .box .detail-box {
