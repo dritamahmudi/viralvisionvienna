@@ -143,13 +143,15 @@
   .container .service_container .container-fluid{
     max-width: 1170px;
   }
-}
 @media (max-width: 768px) {
   .service_section {
     text-align: center;
     padding: 20px;
      margin-bottom: 50px;
   }
+    .service_section.layout_padding {
+        padding: 20px 10px; /* Beispielwerte — Anpassen an Ihre Anforderungen */
+    }
 
   .service_section .service_container {
     display: flex;
