@@ -3,8 +3,6 @@ $black: #000000;
 $purpel: #832eff;
 $pink: #ff4ff3;
 $pinkhell: #d9acfc;
-$primary1: #d8bf36;
-$primary2: #041858;
 
 @mixin main-font {
   font-family: "Antonio", sans-serif;
@@ -289,7 +287,7 @@ a:focus {
         margin: 5px;
 
         &.btn-1 {
-          @include hero_btn($primary1, $purpel, 8px, 0, 30px);
+          @include hero_btn($purpel, $purpel, 8px, 0, 30px);
         }
 
         &.btn-2 {
@@ -371,7 +369,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary1, $purpel, 10px, 35px, 30px);
+      @include hero_btn($purpel, $purpel, 10px, 35px, 30px);
       margin: 25px 0 45px 0;
     }
   }
@@ -506,7 +504,7 @@ a:focus {
     display: flex;
 
     a {
-      @include hero_btn($primary1, $purpel, 10px, 25px, 30px);
+      @include hero_btn($purpel, $purpel, 10px, 25px, 30px);
     }
   }
 }
@@ -589,7 +587,7 @@ a:focus {
     justify-content: center;
 
     a {
-      @include hero_btn($primary1, $purpel, 10px, 35px, 30px);
+      @include hero_btn($purpel, $purpel, 10px, 35px, 30px);
     }
   }
 }
