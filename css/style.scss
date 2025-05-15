@@ -886,4 +886,9 @@ a:focus {
         margin-bottom: 15px;
     }
 }
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+    cursor: pointer !important;
+}
 
