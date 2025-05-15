@@ -329,11 +329,12 @@ a:focus {
   background-size: 8px;
   background-position: center;
   background-color: #ff4ff3;
+  color: #832eff;
 }
 
 .slider_section .carousel_btn-container .carousel-control-prev:hover,
 .slider_section .carousel_btn-container .carousel-control-next:hover {
-  background-color: #d9acfc;
+  background-color: #ff4ff3;
 }
 
 .slider_section .carousel_btn-container .carousel-control-prev {
