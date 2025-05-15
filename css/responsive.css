@@ -131,8 +131,6 @@
   }
 }
 
-@media (max-width: 480px) {}
-
 @media (max-width: 420px) {
   .slider_section .detail_box h1 {
     font-size: 3rem;
