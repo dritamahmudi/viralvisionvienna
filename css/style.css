@@ -930,4 +930,9 @@ a:focus {
 .footer_section a {
   color: #000000;
 }
+
+/* Override for Owl Carousel cursor issue */
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer !important;
+}
 /*# sourceMappingURL=style.css.map */
