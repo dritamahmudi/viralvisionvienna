@@ -503,6 +503,7 @@ a:focus {
 .work_section .detail_container .box .top-box h5 {
   font-weight: 600;
   margin: 0;
+  color: #832eff;
 }
 
 .work_section .detail_container .box .bottom-box {
@@ -737,7 +738,7 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #d9acfc;
+  background-color: #ff4ff3;
   color: #000000;
   border-radius: 30px;
   text-transform: uppercase;
