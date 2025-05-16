@@ -268,7 +268,7 @@ a:focus {
   display: inline-block;
   padding: 8px 0;
   background-color: #ff4ff3;
-  color: #ff4ff3;
+  color: #000000;
   border-radius: 30px;
 }
 
@@ -280,7 +280,7 @@ a:focus {
   display: inline-block;
   padding: 8px 0;
   background-color: #ff4ff3;
-  color: #ff4ff3;
+  color: #000000;
   border-radius: 30px;
 }
 
