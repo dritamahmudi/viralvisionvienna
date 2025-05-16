@@ -58,6 +58,9 @@
   }
 
   .slider_section .carousel_btn-container {
+    width: 150px;
+    height: 150px;
+
     bottom: 25%;
   }
 
