@@ -707,7 +707,7 @@ a:focus {
   color: $purpel;
 
   p {
-    color: #000000;
+    color: #purpel;
   }
 
   .info_logo {
@@ -742,7 +742,7 @@ a:focus {
       margin: 20px 0;
 
       p {
-        color: $black;
+        color: $purpel;
       }
 
 
@@ -770,7 +770,7 @@ a:focus {
         margin: 5px 0;
 
         a {
-          color: $black;
+          color: $purpel;
           position: relative;
 
           &::before {
@@ -815,7 +815,7 @@ a:focus {
         outline: none;
         width: 100%;
         padding: 7px 10px;
-        color: $purpel;
+        color: $black;
 
         &::placeholder {
           color: $black;
@@ -855,7 +855,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: $black;
+  color: $purpel;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
@@ -863,7 +863,7 @@ a:focus {
 
 .footer_section {
   a {
-    color: $black;
+    color: $purpel;
   }
 }
 
