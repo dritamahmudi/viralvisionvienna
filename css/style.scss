@@ -287,11 +287,11 @@ a:focus {
         margin: 5px;
 
         &.btn-1 {
-          @include hero_btn($purpel, $purpel, 8px, 0, 30px);
+          @include hero_btn($black, $purpel, 8px, 0, 30px);
         }
 
         &.btn-2 {
-          @include hero_btn($purpel, $purpel, 8px, 0, 30px);
+          @include hero_btn($black, $purpel, 8px, 0, 30px);
         }
       }
     }
