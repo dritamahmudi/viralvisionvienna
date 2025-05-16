@@ -159,7 +159,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #000000;
   margin: 7px 0;
   -webkit-transition: all .3s;
   transition: all .3s;
