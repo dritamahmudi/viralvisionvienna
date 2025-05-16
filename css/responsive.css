@@ -123,15 +123,6 @@
   .info_section .info_form .social_box {
     justify-content: center;
   }
-  .quote_btn-container {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-  }
-
-  .quote_btn-container img {
-    margin-right: 8px;
-  }
 }
 
 @media (max-width: 576px) {
