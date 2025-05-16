@@ -63,6 +63,8 @@ body {
   h2 {
     position: relative;
     font-weight: bold;
+    color: $purpel;
+
 
     &::before {
       content: "";
@@ -70,7 +72,6 @@ body {
       width: 20px;
       height: 20px;
       background-color: $purpel;
-      color: $purpel;
       top: 50%;
       right: -30px;
       border-radius: 100%;
@@ -555,6 +556,7 @@ a:focus {
         h5 {
           font-weight: bold;
           position: relative;
+          color: $purpel;
         }
       }
 
@@ -697,7 +699,6 @@ a:focus {
 
 // info section
 .info_section {
-  color: $purpel;
 
   p {
     color: #purpel;
