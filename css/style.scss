@@ -349,7 +349,7 @@ a:focus {
 
 // about section
 .about_section {
-  background-color: #f6f0ff;
+  background-color: $lilasek;
   padding: 60px 20px;
   .row {
     align-items: center;
@@ -588,7 +588,7 @@ a:focus {
 // client section
 
 .client_section {
-  background-color: #f6f0ff;
+  background-color: $lilasek;
   padding: 60px 20px;
 }
   .box {
@@ -701,7 +701,7 @@ a:focus {
 .info_section {
 
   p {
-    color: $purpel;
+    color: $black;
   }
 
   .info_logo {
@@ -757,6 +757,8 @@ a:focus {
   }
 
   .info_links {
+    h4 {
+         color: $purpel;
     ul {
       padding-left: 15px;
 
