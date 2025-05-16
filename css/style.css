@@ -44,6 +44,7 @@ body {
 .heading_container h2 {
   position: relative;
   font-weight: bold;
+  color: #832eff;
 }
 
 .heading_container h2::before {
@@ -52,7 +53,6 @@ body {
   width: 20px;
   height: 20px;
   background-color: #832eff; /*PunktNeben*/
-  color: #832eff;
   top: 50%;
   right: -30px;
   border-radius: 100%;
@@ -598,6 +598,7 @@ a:focus {
 .team_section .team_container .box .detail-box h5 {
   font-weight: bold;
   position: relative;
+  color: #832eff;
 }
 
 .team_section .team_container .box.b-2 {
@@ -749,10 +750,6 @@ a:focus {
 
 .contact_section button:hover {
   background-color: #832eff;
-}
-
-.info_section {
-  color: #832eff;
 }
 
 .info_section p {
