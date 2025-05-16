@@ -762,7 +762,7 @@ a:focus {
 }
 
 .info_section p {
-  color: #000000;
+  color: #832eff;
 }
 
 .info_section .info_logo h3 {
@@ -800,7 +800,7 @@ a:focus {
 }
 
 .info_section .info_contact a p {
-  color: #000000;
+  color: #832eff;
 }
 
 .info_section .info_contact a:hover p {
@@ -822,7 +822,7 @@ a:focus {
 }
 
 .info_section .info_links ul li a {
-  color: #000000;
+  color: #832eff;
   position: relative;
 }
 
@@ -857,7 +857,7 @@ a:focus {
 }
 
 .info_section .info_form form input {
-  border: 1px solid #a6adc4;
+  border: 1px solid #000000;
   background-color: transparent;
   outline: none;
   width: 100%;
@@ -921,13 +921,13 @@ a:focus {
 }
 
 .footer_section p {
-  color: #000000;
+  color: #832eff;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
 }
 
 .footer_section a {
-  color: #000000;
+  color: #832eff;
 }
 /*# sourceMappingURL=style.css.map */
