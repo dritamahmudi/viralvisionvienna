@@ -721,6 +721,10 @@ a:focus {
   }
 
   .info_contact {
+    h4 {
+      color: $purpel;
+      }
+    
     .img-box {
       width: 35px;
       display: flex;
@@ -802,7 +806,10 @@ a:focus {
   }
 
   .info_form {
-
+    h4 {
+      color: $purpel;
+      }
+    
     form {
       margin-top: 20px;
 
