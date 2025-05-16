@@ -3,7 +3,7 @@ $black: #1a1a1a;
 $purpel: #832eff;
 $pink: #ff4ff3;
 $pinkhell: #d9acfc;
-$lilasek: f6f0ff;
+$lilasektion: #f6f0ff;
 };
 
 @mixin main-font {
@@ -349,7 +349,7 @@ a:focus {
 
 // about section
 .about_section {
-  background-color: $lilasek;
+  background-color: $lilasektion;
   padding: 60px 20px;
   .row {
     align-items: center;
@@ -441,7 +441,7 @@ a:focus {
 // work section
 
 .work_section {
-  background-color: $lilasek;
+  background-color: $lilasektion;
   padding: 60px 20px;
 }
   .heading_container {
@@ -588,7 +588,7 @@ a:focus {
 // client section
 
 .client_section {
-  background-color: $lilasek;
+  background-color: $lilasektion;
   padding: 60px 20px;
 }
   .box {
@@ -767,7 +767,7 @@ a:focus {
         margin: 5px 0;
 
         a {
-          color: $purpel;
+          color: $black;
           position: relative;
 
           &::before {
