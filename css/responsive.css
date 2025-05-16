@@ -101,7 +101,7 @@
   }
 
   .client_section .carousel_btn-container {
-    bottom: -100px;
+    bottom: -50px;
     right: 50%;
     transform: translateX(50%);
   }
