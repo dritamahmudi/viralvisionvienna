@@ -27,10 +27,14 @@ $lilasektion: #f6f0ff;
   font-weight: bold;
 }
 
-body {
+body, p, span, a, div {
   @include main-font;
   color: #0c0c0c;
   background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Antonio', sans-serif;
 }
 
 .layout_padding {
