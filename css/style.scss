@@ -609,6 +609,7 @@ a:focus {
       h6 {
         font-size: 18px;
         font-weight: bold;
+        color: $black;
       }
     }
   }
@@ -701,7 +702,7 @@ a:focus {
 .info_section {
 
   p {
-    color: #purpel;
+    color: $purpel;
   }
 
   .info_logo {
@@ -710,6 +711,7 @@ a:focus {
     h3 {
       text-transform: uppercase;
       font-weight: bold;
+      color: $black;
     }
 
   }
