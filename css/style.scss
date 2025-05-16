@@ -3,6 +3,8 @@ $black: #1a1a1a;
 $purpel: #832eff;
 $pink: #ff4ff3;
 $pinkhell: #d9acfc;
+$lilasek: f6f0ff;
+};
 
 @mixin main-font {
   font-family: "Antonio", sans-serif;
@@ -439,7 +441,7 @@ a:focus {
 // work section
 
 .work_section {
-  background-color: #f6f0ff;
+  background-color: $lilasek;
   padding: 60px 20px;
 }
   .heading_container {
