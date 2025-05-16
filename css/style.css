@@ -354,6 +354,11 @@ a:focus {
   margin-top: 25px;
 }
 
+.about_section {
+  background-color: #f6f0ff;
+  padding: 60px 20px;
+}
+
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
@@ -382,6 +387,8 @@ a:focus {
   background-position: bottom;
   color: #832eff;
   text-align: center;
+  background-color: #fff0f5;
+  padding: 50px 20px;
 }
 
 .service_section .heading_container {
@@ -402,7 +409,7 @@ a:focus {
 }
   
 .service_section .service_container .box {
-  margin: 25px 10px;
+  margin: 35px 10px;
   min-width: 200px;
   width: 250px;
   flex: 1 1 calc(50% - 20px);
