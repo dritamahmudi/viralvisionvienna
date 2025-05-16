@@ -496,7 +496,7 @@ a:focus {
     display: flex;
 
     a {
-      @include hero_btn($purpel, $pink, 10px, 25px, 30px);
+      @include hero_btn($black, $pink, 10px, 25px, 30px);
     }
   }
 }
