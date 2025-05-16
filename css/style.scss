@@ -1,5 +1,5 @@
 $white: #ffffff;
-$black: #000000;
+$black: #1a1a1a;
 $purpel: #832eff;
 $pink: #ff4ff3;
 $pinkhell: #d9acfc;
@@ -461,7 +461,7 @@ a:focus {
     .box {
       margin-bottom: 20px;
       padding: 20px;
-      box-shadow: 0 0 25px 0 rgba($color: #000000, $alpha: 0.15);
+      box-shadow: 0 0 25px 0 rgba($color: #1a1a1a, $alpha: 0.15);
 
       .top-box {
         display: flex;
@@ -807,7 +807,7 @@ a:focus {
       margin-top: 20px;
 
       input {
-        border: 1px solid #000000;
+        border: 1px solid #1a1a1a;
         background-color: transparent;
         outline: none;
         width: 100%;
