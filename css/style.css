@@ -79,7 +79,7 @@ body {
 
 .sub_page .footer_bg {
   background: none;
-  background-color: #000000;
+  background-color: #1a1a1a;
   padding-top: 45px;
 }
 
@@ -95,7 +95,7 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 3px 15px;
   margin: 10px 15px;
-  color: #000000;
+  color: #1a1a1a;
   background-color: #ff4ff3;
   text-align: center;
   border-radius: 20px;
@@ -245,7 +245,7 @@ a:focus {
   margin-bottom: 30px;
 }
 .slider_section .detail_box p {
-  color: #000000;
+  color: #1a1a1a;
 }
 
 .slider_section .detail_box .btn-box {
@@ -262,7 +262,7 @@ a:focus {
   display: inline-block;
   padding: 8px 0;
   background-color: #ff4ff3;
-  color: #000000;
+  color: #1a1a1a;
   border-radius: 30px;
 }
 
@@ -274,7 +274,7 @@ a:focus {
   display: inline-block;
   padding: 8px 0;
   background-color: #ff4ff3;
-  color: #000000;
+  color: #1a1a1a;
   border-radius: 30px;
 }
 
@@ -358,7 +358,7 @@ a:focus {
   display: inline-block;
   padding: 10px 35px;
   background-color:  #ff4ff3;
-  color: #000000;
+  color: #1a1a1a;
   border-radius: 30px;
   margin: 25px 0 45px 0;
 }
@@ -524,7 +524,7 @@ a:focus {
   display: inline-block;
   padding: 10px 25px;
   background-color: #ff4ff3;
-  color: #000000;
+  color: #1a1a1a;
   border-radius: 30px;
 }
 
@@ -660,7 +660,7 @@ a:focus {
 .client_section .box .detail-box h6 {
   font-size: 18px;
   font-weight: bold;
-  color: #000000;
+  color: #1a1a1a;
 }
 
 .client_section .carousel_btn-container {
@@ -739,7 +739,7 @@ a:focus {
   display: inline-block;
   padding: 8px 35px;
   background-color: #ff4ff3;
-  color: #000000;
+  color: #1a1a1a;
   border-radius: 30px;
   text-transform: uppercase;
   border: none;
@@ -851,7 +851,7 @@ a:focus {
 }
 
 .info_section .info_form form input {
-  border: 1px solid #000000;
+  border: 1px solid #1a1a1a;
   background-color: transparent;
   outline: none;
   width: 100%;
@@ -860,19 +860,19 @@ a:focus {
 }
 
 .info_section .info_form form input::-webkit-input-placeholder {
-  color: #000000;
+  color: #1a1a1a;
 }
 
 .info_section .info_form form input:-ms-input-placeholder {
-  color: #000000;
+  color: #1a1a1a;
 }
 
 .info_section .info_form form input::-ms-input-placeholder {
-  color: #000000;
+  color: #1a1a1a;
 }
 
 .info_section .info_form form input::placeholder {
-  color: #000000;
+  color: #1a1a1a;
 }
 
 .info_section .info_form form button {
