@@ -202,7 +202,6 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   align-items: center; /* Vertikale Ausrichtung */
-  white-space: nowrap;/* Verhindert Zeilenumbruch */
 }
 
 .quote_btn-container a {
@@ -211,9 +210,8 @@ a:focus {
 }
 
 .quote_btn-container img {
-/*  width: 15px;*/
- /* margin: 0 25px;*/
-    margin-right: 8px;
+  width: 15px;
+  margin: 0 25px;
 }
 
 /*end header section*/
