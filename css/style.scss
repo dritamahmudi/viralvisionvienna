@@ -347,6 +347,8 @@ a:focus {
 
 // about section
 .about_section {
+  background-color: #f6f0ff;
+  padding: 60px 20px;
   .row {
     align-items: center;
   }
@@ -387,7 +389,9 @@ a:focus {
   background-position: bottom;
   color: #832eff;
   text-align: center;
-
+  background-color: #fff0f5;
+  padding: 50px 20px;
+  
   .heading_container {
     align-items: center;
   }
@@ -399,7 +403,7 @@ a:focus {
     padding: 35px 60px;
 
     .box {
-      margin: 25px 10px;
+      margin: 35px 10px;
       min-width: 200px;
       width: 250px;
       flex: 1 1 calc(50% - 20px);
