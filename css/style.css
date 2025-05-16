@@ -640,7 +640,10 @@ a:focus {
 .team_section .btn-box a:hover {
   background-color: #832eff;
 }
-
+.client_section {
+  background-color: #f6f0ff;
+  padding: 60px 20px;
+}
 .client_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -705,14 +708,6 @@ a:focus {
 
 .client_section .carousel_btn-container .carousel-control-next {
   background-image: url(../images/next-white.png);
-}
-
-.footer_bg {
-  background-image: url(../images/vvv-bg.png);
-  background-size: cover;
-  background-position: right top;
-  padding-top: 250px;
-  overflow: hidden;
 }
 
 .contact_section {
