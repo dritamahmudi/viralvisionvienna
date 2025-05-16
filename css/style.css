@@ -753,7 +753,7 @@ a:focus {
 }
 
 .info_section p {
-  color: #832eff;
+  color: #000000;
 }
 
 .info_section .info_logo h3 {
@@ -802,6 +802,10 @@ a:focus {
 .info_section .info_contact a img {
   height: auto;
   margin-right: 12px;
+}
+
+.info_section .info_links h4 {
+ color: #832eff;
 }
 
 .info_section .info_links ul {
