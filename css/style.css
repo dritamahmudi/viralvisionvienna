@@ -94,7 +94,8 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 3px 15px;
   margin: 10px 15px;
-  color: #ff4ff3;
+  color: #000000;
+  background-color: #ff4ff3;
   text-align: center;
   border-radius: 20px;
 }
@@ -111,7 +112,7 @@ a:focus {
 
 a:hover,
 a:focus {
-  color: #ff4ff3;
+  color: #832eff;
 }
 
 .btn,
