@@ -130,7 +130,7 @@ body {
       &.active,
       &:hover {
         .nav-link {
-          background-color: $pink;
+          background-color: $purpel;
         }
       }
     }
@@ -369,7 +369,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($purpel, $purpel, 10px, 35px, 30px);
+      @include hero_btn($purpel, $pink, 10px, 35px, 30px);
       margin: 25px 0 45px 0;
     }
   }
@@ -438,7 +438,7 @@ a:focus {
     justify-content: center;
 
     a {
-      @include hero_btn($pink, $purpel, 10px, 35px, 30px);
+      @include hero_btn($purpel, $pink, 10px, 35px, 30px);
     }
   }
  .hero_area{
@@ -504,7 +504,7 @@ a:focus {
     display: flex;
 
     a {
-      @include hero_btn($purpel, $purpel, 10px, 25px, 30px);
+      @include hero_btn($purpel, $pink, 10px, 25px, 30px);
     }
   }
 }
@@ -587,7 +587,7 @@ a:focus {
     justify-content: center;
 
     a {
-      @include hero_btn($purpel, $purpel, 10px, 35px, 30px);
+      @include hero_btn($purpel, $pink, 10px, 35px, 30px);
     }
   }
 }
@@ -689,7 +689,7 @@ a:focus {
   }
 
   button {
-    @include hero_btn($pink, $purpel, 8px, 35px, 30px);
+    @include hero_btn($purpel, $pink, 8px, 35px, 30px);
     text-transform: uppercase;
     border: none;
     box-shadow: none;
@@ -787,7 +787,7 @@ a:focus {
           }
 
           &:hover {
-            color: $pink;
+            color: $purpel;
           }
         }
 
@@ -823,7 +823,7 @@ a:focus {
       }
 
       button {
-        @include hero_btn ( $pink, $purpel, 8px, 30px, 5px);
+        @include hero_btn ($purpel, $pink, 8px, 30px, 5px);
         margin-top: 15px;
         text-transform: uppercase;
         font-size: 15px;
