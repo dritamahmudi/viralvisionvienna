@@ -369,13 +369,6 @@ a:focus {
       margin: 25px 0 45px 0;
     }
   }
-  .hero_area{
-  height: 98vh;
-  position: relative;
-  background-image: url(../images/vvv-bg.png);
-  background-size: cover;
-  background-position: bottom;
-  }
 }
 
 // end about section
@@ -439,13 +432,6 @@ a:focus {
       @include hero_btn($purpel, $pink, 10px, 35px, 30px);
     }
   }
- .hero_area{
-  height: 98vh;
-  position: relative;
-  background-image: url(../images/vvv-bg.png);
-  background-size: cover;
-  background-position: bottom;
-  }
 }
 
 // end service section
@@ -453,6 +439,9 @@ a:focus {
 // work section
 
 .work_section {
+  background-color: #f6f0ff;
+  padding: 60px 20px;
+}
   .heading_container {
     margin-bottom: 45px;
   }
