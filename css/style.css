@@ -791,6 +791,9 @@ a:focus {
   margin: 20px 0;
 }
 
+.info_section .info_contact h4 {
+ color: #832eff;
+}
 .info_section .info_contact a p {
   color: #832eff;
 }
@@ -848,6 +851,9 @@ a:focus {
   display: block;
 }
 
+.info_section .info_form form h4 {
+      color: $purpel;
+      }
 .info_section .info_form form {
   margin-top: 20px;
 }
