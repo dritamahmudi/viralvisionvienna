@@ -372,7 +372,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($purpel, $pink, 10px, 35px, 30px);
+      @include hero_btn($black, $pink, 10px, 35px, 30px);
       margin: 25px 0 45px 0;
     }
   }
