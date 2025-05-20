@@ -719,6 +719,9 @@ a:focus {
 
 .contact_section {
   color: #832eff;
+  .loading { display: none; } /* Wichtig: CSS für #loading */
+  .error { color: red; }
+  .success { color: green; }
 }
 
 .contact_section .heading_container {
@@ -757,12 +760,6 @@ a:focus {
 
 .contact_section button:hover {
   background-color: #832eff;
-}
-
-.contact_section .contactForm {
-  #loading { display: none; } /* Wichtig: CSS für #loading */
-  .error { color: red; }
-  .success { color: green; }
 }
 
 .info_section p {
