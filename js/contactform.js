@@ -36,7 +36,9 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
                 const result = await response.json();
                 console.log("index.html response.text() = ",response);
                 console.log("index.html result.text() = ",result);
-              
+                logError(6,"index.html response.text() = ",response);
+                logError(7,"index.html result.text() = ",result);
+                
                 if (result.success) {
                     successDiv.textContent = "Nachricht erfolgreich gesendet!";
                     form.reset();
