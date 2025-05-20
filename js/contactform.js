@@ -2,9 +2,10 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
   e.preventDefault();
   
   const data = {
-    name: e.target.name.value,
-    from: e.target.email.value,
-    message: e.target.message.value
+        from: e.target.email.value,  
+        name: e.target.name.value,
+        email: e.target.email.value,
+        message: e.target.message.value
   };
 
   const response = await fetch("https://misty-water-4a11.viralvision.workers.dev", {
