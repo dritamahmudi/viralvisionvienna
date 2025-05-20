@@ -759,6 +759,12 @@ a:focus {
   background-color: #832eff;
 }
 
+.contact_section .contactForm {
+  #loading { display: none; } /* Wichtig: CSS für #loading */
+  .error { color: red; }
+  .success { color: green; }
+}
+
 .info_section p {
   color: #000000;
 }
