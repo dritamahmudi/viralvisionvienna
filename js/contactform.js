@@ -1,3 +1,7 @@
+function logError(line) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    console.error.apply(console, ["[" + line + "]:"].concat(args));
+}
 document.getElementById("contactForm").addEventListener("submit", async (e) => {
             e.preventDefault();
             const form = e.target;
@@ -38,9 +42,10 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
                     errorDiv.textContent = "Fehler Unbekannter Fehler"};
                 }
              catch (error) {
-                errorDiv.textContent = "Netzwerkfehler – bitte versuche es später erneut.";
-                console.error("Fetch-Fehler:", error);
-            } finally {
+                    logError(40, "Netzwerkfehler – bitte versuche es später erneut.", error);
+                    errorDiv.textContent = "Netzwerkfehler – bitte versuche es später erneut.";
+                    logError(40, "Fetch-Fehler:", error);
+               } finally {
                 button.disabled = false;
                 if (loading) loading.style.display = "none"; // Sicherheitsprüfung
             }
