@@ -13,7 +13,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
             const successDiv = document.getElementById("success");
             
             const nameValue = form.elements["name"].value;
-           logError("nameValue = ",nameValue);
+           logError(5,"nameValue = ",nameValue);
     
             if (!loading || !errorDiv || !successDiv) {
                 console.error("Fehler: Einige Feedback-Elemente fehlen im HTML!");
