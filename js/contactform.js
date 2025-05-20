@@ -16,7 +16,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
            logError(5,"nameValue = ",nameValue);
     
             if (!loading || !errorDiv || !successDiv) {
-                console.error("Fehler: Einige Feedback-Elemente fehlen im HTML!");
+                  logError(9,"Fehler: Einige Feedback-Elemente fehlen im HTML!");
                 return;
             }
 
