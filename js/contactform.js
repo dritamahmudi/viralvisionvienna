@@ -34,7 +34,6 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
                 if (result.success) {
                     successDiv.textContent = "Nachricht erfolgreich gesendet!";
                     form.reset();
-                } 
                 }
             } catch (error) {
                 errorDiv.textContent = "Netzwerkfehler – bitte versuche es später erneut.";
