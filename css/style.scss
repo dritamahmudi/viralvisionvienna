@@ -669,6 +669,7 @@ a:focus {
 .contact_section {
   color: $purpel;
 
+
   .heading_container {
     align-items: center;
     margin-bottom: 45px;
@@ -686,6 +687,18 @@ a:focus {
       height: 45px;
       margin: 5px 0;
     }
+
+     .loading {
+  display: none; 
+} /* Wichtig: CSS für #loading */
+
+ .error {
+  color: red;
+}
+
+ .success {
+  color: green;
+}
 
   }
 
