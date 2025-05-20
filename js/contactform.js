@@ -25,17 +25,19 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
             successDiv.textContent = "";
             button.disabled = true;
             loading.style.display = "block";
-
+    
+          const formDataTest = new FormData(form);
+          logError(8,"formDataTest = ",JSON.stringify(Object.fromEntries(formDataTest)));
+    
             try {
                 const formData = new FormData(form);
                 const response = await fetch("https://misty-water-4a11.viralvision.workers.dev", {
                     method: "POST",
                     body: JSON.stringify(Object.fromEntries(formData)),
-                });
+          
+               });
                
                 const result = await response.json();
-                console.log("index.html response.text() = ",response);
-                console.log("index.html result.text() = ",result);
                 logError(6,"index.html response.text() = ",response);
                 logError(7,"index.html result.text() = ",result);
                 
@@ -48,7 +50,6 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
              catch (error) {
                     logError(40, "Netzwerkfehler – bitte versuche es später erneut.", error);
                     errorDiv.textContent = "Netzwerkfehler – bitte versuche es später erneut.";
-                    logError(40, "Fetch-Fehler:", error);
                } finally {
                 button.disabled = false;
                 if (loading) loading.style.display = "none"; // Sicherheitsprüfung
