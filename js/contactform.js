@@ -28,7 +28,6 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
                 const response = await fetch("https://misty-water-4a11.viralvision.workers.dev", {
                     method: "POST",
                     body: JSON.stringify(Object.fromEntries(formData)),
-                    headers: { "Content-Type": "application/json" },
                 });
                
                 const result = await response.json();
