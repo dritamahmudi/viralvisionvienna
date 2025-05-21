@@ -44,6 +44,9 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
                 if (result.success) {
                     successDiv.textContent = "Nachricht erfolgreich gesendet!";
                     form.reset();
+                    name = "";
+                    email = "";
+                    text = "";
                 } else {
                     errorDiv.textContent = "Fehler Unbekannter Fehler"};
                 }
