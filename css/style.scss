@@ -719,9 +719,22 @@ a:focus {
     font-size: 15px;
   }
 }
-
 // end contact section
 
+//buchung section
+.buchung_section {
+  color: #832eff;
+
+  .heading_container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 45px;
+  }
+}
+  
+
+//ende buchung section
 
 // info section
 .info_section {
