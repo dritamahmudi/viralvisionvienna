@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 45px 0;
 }
 
+
+.layout_padding3 {
+   padding: 60px 20px;
+}
+
 .layout_padding2-top {
   padding-top: 45px;
 }
@@ -779,6 +784,7 @@ a:focus {
 
 .buchung_section {
   color: #832eff;
+  padding: 60px 20px;
 }
 
 .buchung_section .heading_container {
