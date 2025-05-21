@@ -726,7 +726,8 @@ a:focus {
 
 //buchung section
 .buchung_section {
-  color: purpel;
+  color: $purpel;
+  background-color: #$lilasektion;
 
   .heading_container {
   -webkit-box-align: center;
