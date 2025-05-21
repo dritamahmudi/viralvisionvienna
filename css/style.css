@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/*Termin Buchung*/
 .layout_padding3 {
    padding: 60px 20px;
 }
@@ -782,6 +783,7 @@ a:focus {
   background-color: #832eff;
 }
 
+/*Termin Buchung*/
 .buchung_section {
   color: #832eff;
   background-color: #f6f0ff;
