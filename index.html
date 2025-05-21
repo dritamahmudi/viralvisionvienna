@@ -612,7 +612,7 @@
                           window.addEventListener('load', function() {
                             calendar.schedulingButton.load({
                               url: 'https://calendar.google.com/calendar/appointments/AcZssZ072-TBkoHWLrXcmxJsKPS3RWgHX2ey0h7Fu4E=?gv=true',
-                              color: '#832eff',
+                              color: '#ff4ff3',
                               label: "Termin Buchen",
                               target,
                             });
@@ -624,7 +624,24 @@
       			  </div>
               
               <div class="d-flex justify-content-center">
-                <button type="submit">Send</button>
+                                    <!-- Google Calendar Appointment Scheduling begin -->
+                        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                        <script>
+                        (function() {
+                          var target = document.currentScript;
+                          window.addEventListener('load', function() {
+                            calendar.schedulingButton.load({
+                              url: 'https://calendar.google.com/calendar/appointments/AcZssZ072-TBkoHWLrXcmxJsKPS3RWgHX2ey0h7Fu4E=?gv=true',
+                              color: '#ff4ff3',
+                              label: "Termin Buchen",
+                              target,
+                            });
+                          });
+                        })();
+                        </script>
+                    <!-- end Google Calendar Appointment Scheduling -->                   
+
               </div>
             </form>
         </div>
