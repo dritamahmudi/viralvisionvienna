@@ -746,6 +746,7 @@ a:focus {
 
 .contact_section .error {
   color: red;
+  display:none;
 }
 
 .contact_section .success {
@@ -753,7 +754,8 @@ a:focus {
   color: #155724; 
   padding: 15px; 
   text-align: center; 
-  font-weight: bold;"
+  font-weight: bold;
+  display:none;
 }
 
 .contact_section button {
