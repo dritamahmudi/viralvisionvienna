@@ -794,18 +794,6 @@ a:focus {
   margin-bottom: 45px;
 }
 
-.buchung_section .btn-box btn-3 {
-  display: inline-block;
-  padding: 10px 25px;
-  background-color: #ff4ff3;
-  color: #1a1a1a;
-  border-radius: 30px;
-}
-
-.buchung_section .btn-box btn-3:hover {
-  background-color: #832eff;
-}
-
 .info_section p {
   color: #000000;
 }
