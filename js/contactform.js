@@ -58,6 +58,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
                     errorDiv.style.display = "block";
                     loading.style.display = "none";
                 }
+            }
              catch (error) {
                     logError(40, "Netzwerkfehler – bitte versuche es später erneut.", error);
                     errorDiv.textContent = "Netzwerkfehler – bitte versuche es später erneut.";
