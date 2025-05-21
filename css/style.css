@@ -802,7 +802,7 @@ a:focus {
   border-radius: 30px;
 }
 
-.buchung_section btn-box btn-3:hover {
+.buchung_section .btn-box btn-3:hover {
   background-color: #832eff;
 }
 
