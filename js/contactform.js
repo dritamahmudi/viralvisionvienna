@@ -22,7 +22,11 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
 
             // Reset Zustand
             errorDiv.textContent = "";
+            errorDiv.style.display = "none";
+
             successDiv.textContent = "";
+            successDiv.style.display = "none";
+        
             button.disabled = true;
             loading.style.display = "block";
     
@@ -43,16 +47,22 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
                 
                 if (result.success) {
                     successDiv.textContent = "Nachricht erfolgreich gesendet!";
+                    successDiv.style.display = "block";
+                    loading.style.display = "none";
                     form.reset();
                     const nameValue = form.elements["name"].value;   // ""
                     const emailValue = form.elements["email"].value; // ""
                     const textValue = form.elements["text"].value;
                 } else {
-                    errorDiv.textContent = "Fehler Unbekannter Fehler"};
+                    errorDiv.textContent = "Fehler Unbekannter Fehler";
+                    errorDiv.style.display = "block";
+                    loading.style.display = "none";
                 }
              catch (error) {
                     logError(40, "Netzwerkfehler – bitte versuche es später erneut.", error);
                     errorDiv.textContent = "Netzwerkfehler – bitte versuche es später erneut.";
+                    errorDiv.style.display = "block";
+                    loading.style.display = "none";
                } finally {
                 button.disabled = false;
                 if (loading) loading.style.display = "none"; // Sicherheitsprüfung
