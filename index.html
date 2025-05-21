@@ -584,10 +584,23 @@
         </div>
       </div>
     </div>      
-      <iframe src="https://calendar.google.com/calendar/embed?height=500&wkst=2&ctz=Europe%2FVienna&showPrint=0&mode=WEEK&src=dmlyYWx2aXNpb25AdmlyYWx2aXNpb252aWVubmEuY29t&src=ZGUuYXVzdHJpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%238E24AA&color=%230B8043" 
-        style="border:solid 1px #777" width="900" height="500" frameborder="0" scrolling="no">
-      </iframe>
-</section>
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+        (function() {
+          var target = document.currentScript;
+          window.addEventListener('load', function() {
+            calendar.schedulingButton.load({
+              url: 'https://calendar.google.com/calendar/appointments/AcZssZ072-TBkoHWLrXcmxJsKPS3RWgHX2ey0h7Fu4E=?gv=true',
+              color: '#039BE5',
+              label: "Jetzt kostenlosen Check-up-Termin buchen!",
+              target,
+            });
+          });
+        })();
+        </script>
+        <!-- end Google Calendar Appointment Scheduling -->
     <!-- end contact section -->
 
     <!-- info section -->    
