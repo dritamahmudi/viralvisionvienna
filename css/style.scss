@@ -694,6 +694,7 @@ a:focus {
 
  .error {
   color: red;
+  display:none;
 }
 
  .success {
@@ -701,7 +702,8 @@ a:focus {
   color: #155724; 
   padding: 15px; 
   text-align: center; 
-  font-weight: bold;"
+  font-weight: bold;
+  display:none;
   }
 }
 
