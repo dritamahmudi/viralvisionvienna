@@ -507,88 +507,31 @@ a:focus {
     }
   }
 }
-
 // end work section
 
+
 // team section
-
 .team_section {
-  text-align: center;
+  background-color: $lilasektion;
   padding: 60px 20px;
-
-  .heading_container {
+  .row {
     align-items: center;
   }
 
-  .team_container {
-    display: flex;
-    justify-content: center;
-    padding: 25px 65px;
-    flex-wrap: wrap;
-
-    .box {
-      margin: 35px 45px;
-      min-width: 200px;
-      width: 250px;
-
-      .img-box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px;
-        position: relative;
-
-        img {
-          width: 100%;
-        }
-
-        &::before {
-          content: "";
-          position: absolute;
-          z-index: -1;
-          top: 0;
-          left: 50%;
-          width: 120%;
-          height: 75%;
-          border-radius: 25px;
-          transform: translateX(-52.5%) rotate(-15deg);
-          background-color: $white;
-        }
-      }
-
-      .detail-box {
-        margin-top: 15px;
-
-        h5 {
-          font-weight: bold;
-          position: relative;
-          color: $purpel;
-        }
-      }
-
-      &.b-2 {
-        margin-top: 130px;
-      }
-
-      &.b-3 {
-        margin-top: 130px;
-      }
-      
-      &.b-4 {
-        margin-top: 130px;
-      }
-      &.b-5 {
-        margin-top: 130px;
-      }
+  .img-box {
+    img {
+      max-width: 100%;
     }
   }
 
-  .btn-box {
-    display: flex;
-    justify-content: center;
+  .detail-box {
+    p {
+      margin-top: 25px;
+    }
 
     a {
-      @include hero_btn($purpel, $pink, 10px, 35px, 30px);
+      @include hero_btn($black, $pink, 10px, 35px, 30px);
+      margin: 25px 0 45px 0;
     }
   }
 }
