@@ -42,9 +42,6 @@
 
 @media (max-width: 768px) {
 
-  .hero_area{
-    height: auto;
-  }
   .slider_section .detail_box {
     text-align: center;
   }
@@ -100,7 +97,6 @@
 
   .client_section {
     text-align: center;
-    margin-bottom: 45px;
   }
 
   .client_section .heading_container {
