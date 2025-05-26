@@ -76,22 +76,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*header section*/
-.hero_area {
-  height: 98vh;
-  position: relative;
-  background-image: url(../images/vvv-bg.png);
-  background-size: cover;
-  background-position: bottom;
-}
-
-.sub_page .hero_area {
-  height: 98vh;
-  position: relative;
-  background-image: url(../images/vvv-bg.png);
-  background-size: cover;
-  background-position: bottom;
-}
-
 .sub_page .footer_bg {
   background: none;
   background-color: #1a1a1a;
@@ -389,19 +373,9 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #832eff;
 }
-.about_section .hero_area {
-  height: 98vh;
-  position: relative;
-  background-image: url(../images/vvv-bg.png);
-  background-size: cover;
-  background-position: bottom;
-}
 
 
 .service_section {
-  height: 98vh;
-  background-image: url(../images/vvv-bg.png);
-  background-size: cover;
   background-position: bottom;
   color: #832eff;
   text-align: center;
@@ -585,13 +559,6 @@ a:focus {
 
 .team_section .detail-box a:hover {
   background-color: #832eff;
-}
-.team_section .hero_area {
-  height: 98vh;
-  position: relative;
-  background-image: url(../images/vvv-bg.png);
-  background-size: cover;
-  background-position: bottom;
 }
 
 
