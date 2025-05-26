@@ -570,6 +570,13 @@ a:focus {
   text-align: center;
 }
 
+.client_section .heading_container {
+   -webkit-box-align: center;
+      -ms-flex-align: center;
+         align-items: center;
+   padding-top: 30px;
+  }
+
 
 client_section .swiper-slide {
   background: #f5f5f5;
