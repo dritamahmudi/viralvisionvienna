@@ -37,6 +37,9 @@
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
+  <!-- swiper core css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
@@ -328,35 +331,36 @@
 
    <!-- client section -->
   <section class="client_section">
-    <div class="container">
-      <div class="row">
-       <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/logoDreieck.png" alt="LogoViralVisionVienna">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                Meet The client
-              </h2>
-            </div>
-            <p>
-              At Viral Vision Vienna, we specialize in data-driven social media strategies, targeted Meta ads, and high-performing content.
-              Based in Vienna and working globally, we help brands grow their digital presence, connect with their audience, and achieve measurable results.
-              With a clear focus on business goals and market trends, we deliver tailored solutions — from concept to campaign. Your success is our vision.
-            </p>
-             <a href="#contactLink" class="btn-2">
-              Read More
-            </a>
-          </div>
-        </div>
+
+
+      <h2>Meet the Clients</h2>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <img src="images/s-1.png" alt="Client 1 Logo" />
+        <p>“Great collaboration with Viral Vision!”</p>
+        <h4>— Client Name</h4>
       </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <img src="images/s-2.png" alt="Client 2 Logo" />
+        <p>“Highly creative and professional.”</p>
+        <h4>— Client 2</h4>
+      </div>
+
+      <!-- Weitere Slides ... -->
+
     </div>
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
   </section>
   <!-- end client section -->
 
+  
    <!-- contact section -->
  <section class="contact_section">
    <div class="container">
@@ -534,7 +538,31 @@
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/contactform.js"></script>
-  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    }
+  });
+</script>
 </body>
 
 </html>
