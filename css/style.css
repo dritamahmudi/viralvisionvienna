@@ -596,6 +596,11 @@ a:focus {
 
 
 /* client section */
+
+.client_section {
+  background-color: #f6f0ff;
+}
+
 .client_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -608,11 +613,6 @@ a:focus {
 
 .client_section .detail-box p {
   margin-top: 25px;
-}
-
-.client_section {
-  background-color: #f6f0ff;
-  padding: 60px 20px;
 }
 
 .client_section .detail-box a {
