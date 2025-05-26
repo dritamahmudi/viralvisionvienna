@@ -584,9 +584,9 @@ a:focus {
    -webkit-box-align: center;
       -ms-flex-align: center;
          align-items: center;
-}
+   padding-top: 30px;
   }
-
+  
   .form {
 
     .form-control {
@@ -619,7 +619,7 @@ a:focus {
   }
 }
 
-  }
+  
 
   .button {
     @include hero_btn($purpel, $pink, 8px, 35px, 30px);
@@ -630,8 +630,6 @@ a:focus {
     margin-top: 15px;
     font-size: 15px;
   }
-}
-
 }
 
 // end contact section
