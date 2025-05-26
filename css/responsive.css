@@ -105,17 +105,6 @@
 
   .client_section .heading_container {
     align-items: center;
-
-  }
-
-  .client_section .box {
-    align-items: center;
-  }
-
-  .client_section .carousel_btn-container {
-    bottom: -50px;
-    right: 50%;
-    transform: translateX(50%);
   }
 
   .footer_bg {
