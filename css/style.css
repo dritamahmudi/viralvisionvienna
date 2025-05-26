@@ -630,65 +630,41 @@ a:focus {
 
 /* ende client section */
 
-.contact_section {
-  color: #832eff;
-}
-
-.contact_section .heading_container {
+/* contact section */
+.contact_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 45px;
 }
 
-.contact_section form .form-control {
-  border: none;
-  background-color: #d9acfc;
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-radius: 30px;
-  padding-left: 20px;
-  height: 45px;
-  margin: 5px 0;
+.contact_section .img-box img {
+  max-width: 100%;
 }
 
-.contact_section .loading {
-  display: none; 
-} /* Wichtig: CSS für #loading */
-
-.contact_section .error {
-  color: red;
-  display:none;
+.contact_section .detail-box p {
+  margin-top: 25px;
 }
 
-.contact_section .success {
-  background-color: #d4edda; 
-  color: #155724; 
-  padding: 15px; 
-  text-align: center; 
-  font-weight: bold;
-  display:none;
+.contact_section {
+  background-color: #f6f0ff;
+  padding: 60px 20px;
 }
 
-.contact_section button {
+.contact_section .detail-box a {
   display: inline-block;
-  padding: 8px 35px;
-  background-color: #ff4ff3;
+  padding: 10px 35px;
+  background-color:  #ff4ff3;
   color: #1a1a1a;
   border-radius: 30px;
-  text-transform: uppercase;
-  border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  outline: none;
-  margin-top: 15px;
-  font-size: 15px;
+  margin: 25px 0 45px 0;
 }
 
-.contact_section button:hover {
+.contact_section .detail-box a:hover {
   background-color: #832eff;
 }
+
+/* ende contact section */
+
 
 /*Termin Buchung*/
 .buchung_section {
