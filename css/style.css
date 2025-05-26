@@ -22,6 +22,11 @@ h1, h2, h3, h4, h5, h6 {
    padding: 60px 20px;
 }
 
+/*Contact Form*/
+.layout_padding4 {
+   padding: 60px 20px;
+}
+
 .layout_padding2-top {
   padding-top: 45px;
 }
