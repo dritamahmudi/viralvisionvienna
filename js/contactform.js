@@ -4,7 +4,7 @@ function logError(line) {
   console.error.apply(console, ["[" + line + "]:"].concat(args));
 }
 
-// === Email validation helper ===
+// === Improved Email validation ===
 function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(email).toLowerCase());
@@ -37,7 +37,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
   const form = e.target;
   const button = form.querySelector("button[type='submit']");
 
-    // Important: Check if elements exist!
+  // Important: Check if elements exist!
   const loading = document.getElementById("loading");
   const errorDiv = document.getElementById("error");
   const successDiv = document.getElementById("success");
@@ -47,7 +47,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
   logError(5, "nameValue = ", nameValue);
   logError(5.1, "emailValue = ", emailValue);
 
-  // === Email validation ===
+  // === Double-check email validation ===
   if (!validateEmail(emailValue)) {
     errorDiv.textContent = "Please enter a valid email address.";
     errorDiv.style.display = "block";
@@ -59,20 +59,12 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
     return;
   }
 
-    // Reset state
+  // Reset state
   errorDiv.textContent = "";
   errorDiv.style.display = "none";
-
   successDiv.textContent = "";
   successDiv.style.display = "none";
 
-    // Email validation
-  if (!validateEmail(emailValue)) {
-      errorDiv.textContent = "Please enter a valid email address";
-      errorDiv.style.display = "block";
-      return;
-  }
-    
   button.disabled = true;
   loading.style.display = "block";
 
@@ -93,25 +85,18 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
     if (result.success) {
       successDiv.textContent = "Message sent successfully!";
       successDiv.style.display = "block";
-      loading.style.display = "none";
       form.reset();
-      
-      const nameValue = form.elements["name"].value;   // ""
-      const emailValue = form.elements["email"].value; // ""
-      const textValue = form.elements["text"].value;
     } else {
-      errorDiv.textContent = "Error: Unknown error occurred.";
+      errorDiv.textContent = result.message || "Error: Unknown error occurred.";
       errorDiv.style.display = "block";
-      loading.style.display = "none";
     }
   } catch (error) {
     logError(40, "Network error – please try again later.", error);
     errorDiv.textContent = "Network error – please try again later.";
     errorDiv.style.display = "block";
-    loading.style.display = "none";
   } finally {
     button.disabled = false;
-    if (loading) loading.style.display = "none";
+    loading.style.display = "none";
   }
 });
 </script>
