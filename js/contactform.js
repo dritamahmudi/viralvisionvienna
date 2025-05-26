@@ -1,4 +1,3 @@
-<script>
 // Debugging Helper
 function debug(logMessage, data = null) {
   console.log(`[DEBUG] ${logMessage}`, data || '');
@@ -111,4 +110,3 @@ document.addEventListener('DOMContentLoaded', function() {
   updateFormState();
   debug('Form initialization complete');
 });
-</script>
