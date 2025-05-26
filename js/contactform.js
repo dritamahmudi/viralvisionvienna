@@ -10,6 +10,28 @@ function validateEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
+// === Real-time email validation ===
+document.getElementById("email")?.addEventListener("input", function() {
+    const emailValue = this.value;
+    const errorDiv = document.getElementById("error");
+    const button = document.querySelector("#contactForm button[type='submit']");
+    
+    if (!emailValue) {
+        errorDiv.style.display = "none";
+        button.disabled = false;
+        return;
+    }
+    
+    if (!validateEmail(emailValue)) {
+        errorDiv.textContent = "Please enter a valid email address";
+        errorDiv.style.display = "block";
+        button.disabled = true;
+    } else {
+        errorDiv.style.display = "none";
+        button.disabled = false;
+    }
+});
+
 document.getElementById("contactForm").addEventListener("submit", async (e) => {
   e.preventDefault();
   const form = e.target;
@@ -26,7 +48,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
   logError(5.1, "emailValue = ", emailValue);
 
   // === Email validation ===
-  if (!isValidEmail(emailValue)) {
+  if (!validateEmail(emailValue)) {
     errorDiv.textContent = "Please enter a valid email address.";
     errorDiv.style.display = "block";
     return;
