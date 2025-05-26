@@ -579,26 +579,60 @@ a:focus {
 .contact_section {
   background-color: $lilasektion;
   padding: 60px 20px;
-  .row {
-    align-items: center;
+  
+ .heading_container {
+   -webkit-box-align: center;
+      -ms-flex-align: center;
+         align-items: center;
+        margin-bottom: 45px;
+}
   }
 
-  .img-box {
-    img {
-      max-width: 100%;
+  .form {
+
+    .form-control {
+      border: none;
+      background-color: $pinkhell;
+      outline: none;
+      box-shadow: none;
+      border-radius: 30px;
+      padding-left: 20px;
+      height: 45px;
+      margin: 5px 0;
     }
+
+     .loading {
+  display: none; 
+} /* Wichtig: CSS für #loading */
+
+ .error {
+  color: red;
+  display:none;
+}
+
+ .success {
+  background-color: #d4edda; 
+  color: #155724; 
+  padding: 15px; 
+  text-align: center; 
+  font-weight: bold;
+  display:none;
+  }
+}
+
   }
 
-  .detail-box {
-    p {
-      margin-top: 25px;
-    }
-
-    a {
-      @include hero_btn($black, $pink, 10px, 35px, 30px);
-      margin: 25px 0 45px 0;
-    }
+  .button {
+    @include hero_btn($purpel, $pink, 8px, 35px, 30px);
+    text-transform: uppercase;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 15px;
+    font-size: 15px;
   }
+}
+
 }
 
 // end contact section
