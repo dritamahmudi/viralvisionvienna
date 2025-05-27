@@ -1,8 +1,3 @@
-on: { init() {
-        console.log('AOS.init initialized');
-      },
-    }
-
 AOS.init({
   duration: 1200, // Zeit in Millisekunden (hier: 1,2 Sekunden)
   once: false // Animationen werden jedes Mal ausgelöst, wenn das Element gescrollt wird
