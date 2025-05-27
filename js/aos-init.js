@@ -1,6 +1,6 @@
 AOS.init({
   duration: 1200, // Zeit in Millisekunden (hier: 1,2 Sekunden)
-  once: true // Animationen werden jedes Mal ausgeloest, wenn das Element gescrollt wird
+  once: false // Animationen werden jedes Mal ausgeloest, wenn das Element gescrollt wird
 });
 console.log('AOS initialisiert!');
 
