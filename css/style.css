@@ -600,6 +600,22 @@ client_section .swiper-slide p {
           align-items: center;
   margin-bottom: 45px;
 }
+buchung_section .row button,
+buchung_section .row .gc-scheduling-button {
+  /* Beispiel-Styles */
+  background: #e91e63;
+  color: #ff4ff3;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 15px 40px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: background 0.3s;
+}
+buchung_section .row button:hover,
+buchung_section .row .gc-scheduling-button:hover {
+  background: #832eff;
+}
 
 .info_section p {
   color: #000000;
@@ -787,3 +803,6 @@ client_section .swiper-slide p {
   color: #832eff;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
