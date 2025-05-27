@@ -227,15 +227,6 @@ a:focus {
 
 /*end header section*/
 
-@keyframes zoomInOut {
-  0%   { transform: scale(1); }
-  50%  { transform: scale(1.2); }
-  100% { transform: scale(1); }
-}
-.zoom-loop {
-  animation: zoomInOut 1s infinite;
-}
-
 /* slider section */
 .slider_section {
   background-color: $lilasektion;
