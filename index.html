@@ -441,22 +441,13 @@
     <div class="row">
     <div class="col-lg-6 col-md-8 mx-auto">
       <div class="d-flex justify-content-center">         
-        <!-- Google Calendar Appointment Scheduling begin -->
+          <!-- Google Calendar Appointment Scheduling begin -->
+          <!-- Google Calendar Stylesheet -->
           <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+          <!-- Google Calendar Script (async) -->
           <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-            <script>
-             (function() {
-               var target = document.currentScript;
-                window.addEventListener('load', function() {
-                calendar.schedulingButton.load({
-                url: 'https://calendar.google.com/calendar/appointments/AcZssZ072-TBkoHWLrXcmxJsKPS3RWgHX2ey0h7Fu4E=?gv=true',
-                color: '#ff4ff3',
-                label: "Book an Appointment!",
-                target,
-                      });
-                   });
-              })();
-            </script>
+          <!-- Externe Initialisierung -->
+          <script src="js/google-calendar-scheduling.js" defer></script>
           <!-- end Google Calendar Appointment Scheduling -->
          </div>
        </div>
