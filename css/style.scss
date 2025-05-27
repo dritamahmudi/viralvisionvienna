@@ -239,20 +239,7 @@ a:focus {
     }
   
 }
-
 /*end header section*/
-
-/* class="aos-zoom-btn" */
-@keyframes zoomInOut {
-  0%   { transform: scale(1); }
-  50%  { transform: scale(1.2); }
-  100% { transform: scale(1); }
-}
-
-.zoom-loop {
-  animation: zoomInOut 1s infinite;
-}
-/*class="aos-zoom-btn" */
 
 // slider_section
 .slider_section {
