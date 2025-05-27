@@ -3,16 +3,16 @@ AOS.init({
   once: false // Animationen werden jedes Mal ausgelöst, wenn das Element gescrollt wird
 });
 
-// Wenn der Button sichtbar wird, Animation starten:
+// Wenn der Button sichtbar wird, Animation starten:// Prüft, ob das Element die Klasse "aos-zoom-btn" hat
 document.addEventListener('aos:in', function(event) {
-  if (event.detail.id === 'sendForm' || event.detail.classList.contains('sendForm')) {
+  if (event.detail.id === 'aos-zoom-btn' || event.detail.classList.contains('aos-zoom-btn')) {
     event.detail.classList.add('zoom-loop');
   }
 });
 
 // Wenn der Button nicht mehr sichtbar ist, Animation entfernen:
 document.addEventListener('aos:out', function(event) {
-  if (event.detail.id === 'sendForm' || event.detail.classList.contains('sendForm')) {
+  if (event.detail.id === 'aos-zoom-btn' || event.detail.classList.contains('aos-zoom-btn')) {
     event.detail.classList.remove('zoom-loop');
   }
 });
