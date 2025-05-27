@@ -1,7 +1,8 @@
 AOS.init({
   duration: 1200, // Zeit in Millisekunden (hier: 1,2 Sekunden)
-  once: false // Animationen werden jedes Mal ausgeloest, wenn das Element gescrollt wird
+  once: true // Animationen werden jedes Mal ausgeloest, wenn das Element gescrollt wird
 });
+console.log('AOS initialisiert!');
 
 // Wenn der Button sichtbar wird, Animation starten:// Prueft, ob das Element die Klasse "aos-zoom-btn" hat
 document.addEventListener('aos:in', function(event) {
