@@ -4,7 +4,7 @@ AOS.init({
 });
 console.log('AOS initialisiert!');
 
-console.log('event.detail:', event.detail, 'event.target:', event.target);
+console.log('event', event, 'event.target:', event.target);
 
 // Wenn der Button sichtbar wird, Animation starten:// Prueft, ob das Element die Klasse "aos-zoom-btn" hat
 document.addEventListener('aos:in', function(event) {
