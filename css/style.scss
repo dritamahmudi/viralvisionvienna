@@ -7,7 +7,7 @@ $lilasektion: #f6f0ff;
 
 @mixin main-font {
   font-family: "Antonio", sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
@@ -241,6 +241,19 @@ a:focus {
 }
 
 /*end header section*/
+
+/* class="aos-zoom-btn" */
+@keyframes zoomInOut {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.zoom-loop {
+  animation: zoomInOut 1s infinite;
+}
+/*class="aos-zoom-btn" */
+
 // slider_section
 .slider_section {
   background-color: $lilasektion;
