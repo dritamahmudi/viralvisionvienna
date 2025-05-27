@@ -36,7 +36,12 @@ document.addEventListener('DOMContentLoaded', function() {
       nextEl: '.swiper-sliders .swiper-button-next',
       prevEl: '.swiper-sliders .swiper-button-prev'
     },
-    autoplay: { delay: 5000 }
+    autoplay: { delay: 5000 },
+
+   on: { init() {
+        console.log('Clients slider initialized');
+      },
+    },
   });
 
 });
