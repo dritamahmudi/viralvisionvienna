@@ -43,6 +43,9 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet">
 
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
   
 <body>
@@ -128,7 +131,7 @@
     <!-- end slider section -->
 
   <!-- about section -->
-  <section class="about_section">
+  <section class="about_section" data-aos="fade-up">
     <div class="container">
       <div class="row">
        <div class="col-md-6">
@@ -161,7 +164,7 @@
 
 
   <!-- work section -->
-  <section class="work_section layout_padding">
+  <section class="work_section layout_padding" data-aos="fade-up">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -223,7 +226,7 @@
   <!-- end work section -->
 
   <!-- team section -->
-  <section class="team_section">
+  <section class="team_section" data-aos="fade-up">
     <div class="container">
       <div class="row">
        <div class="col-md-6">
@@ -254,7 +257,7 @@
   <!-- end team section -->
 
    <!-- client section -->
-  <section class="client_section">
+  <section class="client_section" data-aos="fade-up">
     <div class="heading_container">
         <h2>
           client_section
@@ -309,7 +312,7 @@
 
   
    <!-- contact section -->
- <section class="contact_section">
+ <section class="contact_section" data-aos="fade-up">
    <div class="container">
     <div class="heading_container">
           <h2>
@@ -360,7 +363,7 @@
 
   
   <!-- start Book an Appointment -->
- <section class="buchung_section layout_padding3" id="bookAppointment">
+ <section class="buchung_section layout_padding3" id="bookAppointment" data-aos="fade-up">
   <div class="container">
     <div class="heading_container">
           <h2>
@@ -471,6 +474,11 @@
   </div>
       <!-- footer section -->
 
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
