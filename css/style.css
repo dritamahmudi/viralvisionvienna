@@ -266,6 +266,27 @@ slider_section .swiper-slide p {
   font-style: italic;
   margin-bottom: 10px;
 }
+
+.slider_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider_section .btn-box a {
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: #ff4ff3;
+  color: #832eff;
+  border-radius: 30px;
+}
+
+.slider_section .btn-box a:hover {
+  background-color: #832eff;
+}
 /* ende slider section */
 
 
