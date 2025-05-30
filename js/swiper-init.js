@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-     new Swiper('.swiper-sliders', {
+new Swiper('.swiper-sliders', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 20,
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
    
 
-          new Swiper('.swiper-teams', {
+new Swiper('.swiper-teams', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 20,
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
   });  
 
-       new Swiper('.swiper-clients', {
+new Swiper('.swiper-clients', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 20,
