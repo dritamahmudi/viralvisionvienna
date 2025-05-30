@@ -27,32 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });  
 
    
-  new Swiper('.swiper-clients', {
-    loop: true,
-    slidesPerView: 1,
-    spaceBetween: 20,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-clients .swiper-pagination', // WICHTIG: Spezifischer Selektor
-      clickable: true,
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-    },
-    on: {
-      init() {
-        console.log('swiper-clients initialized');
-      },
-    },
-  });  
 
           new Swiper('.swiper-teams', {
     loop: true,
@@ -80,5 +54,33 @@ document.addEventListener('DOMContentLoaded', function() {
       },
     },
   });  
+
+       new Swiper('.swiper-clients', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-clients .swiper-pagination', // WICHTIG: Spezifischer Selektor
+      clickable: true,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+    on: {
+      init() {
+        console.log('swiper-clients initialized');
+      },
+    },
+  });  
+
  
 });
