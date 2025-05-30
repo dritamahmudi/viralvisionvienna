@@ -257,8 +257,8 @@ slider_section .swiper-slide:hover {
 }
 
  slider_section .swiper-slide img {
-  width: 100px;
-  height: auto;
+  width: 150px;
+  height: 150px;
   margin-bottom: 15px;
 }
 
