@@ -294,6 +294,7 @@ slider_section .swiper-slide p {
 
 .slider_section .btn-box {
   margin-top: 40px;      /* Abstand nach oben zur Paginierung */
+  margin-bottom: 40px;
 }
 /* ende slider section */
 
