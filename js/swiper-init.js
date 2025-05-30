@@ -54,5 +54,31 @@ document.addEventListener('DOMContentLoaded', function() {
     },
   });  
 
+          new Swiper('.swiper-teams', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-teams .swiper-pagination', // WICHTIG: Spezifischer Selektor
+      clickable: true,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+    on: {
+      init() {
+        console.log('swiper-teams initialized');
+      },
+    },
+  });  
  
 });
