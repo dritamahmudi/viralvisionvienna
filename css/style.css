@@ -383,6 +383,83 @@ slider_section .swiper-slide p {
   background-color: #832eff;
 }
 
+
+/*3 service_section */
+.service_section {
+  background-color: #f6f0ff;
+  padding: 60px 20px;
+}
+
+.service_section .heading_container {
+  margin-bottom: 45px;
+  align-items: center;
+}
+
+.service_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service_section .detail_container .box {
+  margin-bottom: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+}
+
+.service_section .detail_container .box .top-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service_section .detail_container .box .top-box .icon-box {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.service_section .detail_container .box .top-box .icon-box img {
+  width: 100%;
+}
+
+.service_section .detail_container .box .top-box h5 {
+  font-weight: 600;
+  margin: 0;
+  color: #832eff;
+}
+
+.service_section .detail_container .box .bottom-box {
+  margin-top: 10px;
+}
+
+.service_section .img-box img {
+  max-width: 100%;
+}
+
+.service_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service_section .btn-box a {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #ff4ff3;
+  color: #1a1a1a;
+  border-radius: 30px;
+}
+
+.service_section .btn-box a:hover {
+  background-color: #832eff;
+}
+
+/*end service section 3 */
+
 .work_section {
   background-color: #f6f0ff;
   padding: 60px 20px;
