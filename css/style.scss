@@ -313,7 +313,6 @@ slider_section .swiper-slide p {
 // end about section
 
 // service section
-
 .service_section {
    height: 98vh;
   background-image: url(../images/vvv-bg.png);
@@ -374,6 +373,71 @@ slider_section .swiper-slide p {
 }
 
 // end service section
+
+/* 3 service section */
+.service_section {
+  background-color: $lilasektion;
+  padding: 60px 20px;
+}
+  .heading_container {
+    margin-bottom: 45px;
+    align-items: center;
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  .detail_container {
+    .box {
+      margin-bottom: 20px;
+      padding: 20px;
+      box-shadow: 0 0 25px 0 rgba($color: $black, $alpha: 0.15);
+
+      .top-box {
+        display: flex;
+        align-items: center;
+
+        .icon-box {
+          width: 50px;
+          margin-right: 15px;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        h5 {
+          font-weight: 600;
+          margin: 0;
+          color: $purpel;
+        }
+      }
+
+      .bottom-box {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .img-box {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .btn-box {
+    display: flex;
+
+    a {
+      @include hero_btn($black, $pink, 10px, 25px, 30px);
+    }
+  }
+// end service section */
+
+
+/* end service section */
+
 
 // work section
 
