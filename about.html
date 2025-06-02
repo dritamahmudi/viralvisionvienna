@@ -38,7 +38,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
   <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+ 
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
   <!-- responsive style -->
@@ -133,7 +134,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
   <div class="footer_bg">
     <!-- contact section -->
-    <section class="contact_section layout_padding" id="contactLink">
+       <section class="contact_section" data-aos="fade-up">
       <div class="container">
         <div class="heading_container">
           <h2>
@@ -144,30 +145,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <form id="contactForm">
+                                 <form id="contactForm">
               <div class="form-row">
                 
                 <div class="form-group col-md-6">
-                  <input type="text" class="form-control" name="name" placeholder="Name " required>                  
+                  <input type="text" class="form-control" name="name" placeholder="Name " data-aos="fade-right" required>                  
                 </div>
                 
                 <div class="form-group col-md-6">
-                  <input type="email" class="form-control" name="email" placeholder="Email/From" required>
+                  <input type="email" class="form-control" name="email" placeholder="Email/From" data-aos="fade-left" required>
                 </div>
               </div>
 
                <div class="form-row">
                  <div class="form-group col">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" data-aos="fade-down">
                 </div>
       			  </div>
               
               <div class="form-group">
-                <textarea class="form-control" name="text" placeholder="Message/Text" required></textarea>
+                <textarea class="form-control" name="text" placeholder="Message/Text" data-aos="zoom-in" required></textarea>
               </div>
               
               <div class="d-flex justify-content-center">
-                <button type="submit">Send</button>
+                <button type="submit" data-aos="flip-left">
+                  Send</button>
               </div>
               
               <!-- Wichtig: Diese Elemente MÜSSEN im HTML existieren! -->
@@ -182,8 +184,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
     <!-- end contact section -->
 
- <!-- start Book an Appointment-->
- <section class="buchung_section layout_padding3" id="bookAppointment">>
+ <!-- start Book an Appointment -->
+ <section class="buchung_section layout_padding3" id="bookAppointment" data-aos="fade-up">
   <div class="container">
     <div class="heading_container">
           <h2>
@@ -292,18 +294,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </p>
       </div>
     </div>
-    <!-- footer section -->
+       <!-- footer section -->
 
-  </div>
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/contactform.js"></script>
-    <!-- Swiper JS Bundle -->
+   
+  <!-- Swiper JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-  <!-- Eigene Initialisierung (mit defer) -->
+  
+   <!-- Eigene Initialisierung (mit defer) -->
   <script src="js/swiper-init.js" defer></script>
 
+   <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/aos-init.js"></script>
+    
 </body>
 
 </html>
