@@ -31,7 +31,7 @@ new Swiper('.swiper-teams', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 20,
-
+     autoHeight: true,
     pagination: {
       el: '.swiper-teams .swiper-pagination', // WICHTIG: Spezifischer Selektor
       clickable: true,
