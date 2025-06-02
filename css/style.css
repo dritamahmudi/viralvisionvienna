@@ -292,13 +292,13 @@ slider_section .swiper-slide p {
   margin-bottom: 40px;  /* Abstand nach unten, damit Paginierung nicht direkt am Rand klebt */
 }
 
-.slider_section .btn-box {
+.slider_section .btn-box .btn-2{
   margin-top: 40px;      /* Abstand nach oben zur Paginierung */
-
+  margin-bottom: 40px;
 }
 .slider_section .btn-box .btn-1{
   margin-top: 40px;      /* Abstand nach oben zur Paginierung */
-/*  margin-bottom: 40px;*/
+  margin-bottom: 40px;
 }
 
 /*end slider_section
