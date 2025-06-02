@@ -492,6 +492,26 @@ slider_section .swiper-slide p {
   background-color: #832eff;
 }
 
+service_section .swiper-slide {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+service_section .swiper-slide:hover {
+  transform: scale(1.03);
+}
+
+ service_section .swiper-slide img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+service_section .swiper-slide p {
+  font-style: italic;
+  margin-bottom: 10px;
 /*end service section 2 */
 
 .work_section {
