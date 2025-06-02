@@ -13,10 +13,10 @@ new Swiper('.swiper-sliders', {
     },
     breakpoints: {
       768: {
-        slidesPerView: 2,
+        slidesPerView: 1,
       },
       1024: {
-        slidesPerView: 3,
+        slidesPerView: 1,
       },
     },
     on: {
@@ -45,7 +45,7 @@ new Swiper('.swiper-teams', {
         slidesPerView: 1,
       },
       1024: {
-        slidesPerView: 2,
+        slidesPerView: 1,
       },
     },
     on: {
