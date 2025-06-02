@@ -603,8 +603,6 @@ team_section .swiper-slide:hover {
 team_section .swiper-slide p {
   font-style: italic;
   margin-bottom: 10px;
-      height: auto;
-  overflow: visible;
 }
 /* ende team section */
 
