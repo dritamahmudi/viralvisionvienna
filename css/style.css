@@ -603,13 +603,6 @@ team_section .swiper-slide:hover {
 team_section .swiper-slide p {
   font-style: italic;
   margin-bottom: 10px;
-  overflow: visible;     /* Verhindert, dass Text abgeschnitten wird */
-  white-space: normal;   /* Erlaubt Zeilenumbruch */
-  height: auto;          /* Passt die Höhe automatisch an den Inhalt an */
-  max-height: none;      /* Keine maximale Höhe */
-  text-overflow: unset;  /* Kein Auslassungszeichen (…) */
-  word-break: break-word;/* Zeilenumbruch bei langen Wörtern */
-
 }
 /* ende team section */
 
