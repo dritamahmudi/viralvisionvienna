@@ -5,7 +5,7 @@ new Swiper('.swiper-sliders', {
     spaceBetween: 20,
     autoplay: {
       delay: 3000,
-      disableOnInteraction: on,
+      disableOnInteraction: false,
     },
     pagination: {
       el: '.swiper-sliders .swiper-pagination', // WICHTIG: Spezifischer Selektor
@@ -32,10 +32,7 @@ new Swiper('.swiper-teams', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 20,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
+
     pagination: {
       el: '.swiper-teams .swiper-pagination', // WICHTIG: Spezifischer Selektor
       clickable: true,
