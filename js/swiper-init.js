@@ -27,7 +27,30 @@ new Swiper('.swiper-sliders', {
   });  
 
    
+new Swiper('.swiper-services', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
 
+    pagination: {
+      el: '.swiper-services .swiper-pagination', // WICHTIG: Spezifischer Selektor
+      clickable: true,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 1,
+      },
+      1024: {
+        slidesPerView: 1,
+      },
+    },
+    on: {
+      init() {
+        console.log('swiper-services initialized');
+      },
+    },
+  });  
+    
 new Swiper('.swiper-teams', {
     loop: true,
     slidesPerView: 1,
