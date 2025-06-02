@@ -296,8 +296,12 @@ slider_section .swiper-slide p {
   margin-top: 40px;      /* Abstand nach oben zur Paginierung */
   margin-bottom: 40px;
 }
-/* ende slider section */
+.slider_section .btn-box .btn-1{
+  margin-top: 40px;      /* Abstand nach oben zur Paginierung */
+  margin-bottom: 40px;
+}
 
+/*end slider_section
 
 
 .about_section .row {
