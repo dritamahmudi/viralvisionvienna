@@ -231,7 +231,7 @@ a:focus {
 /* slider section */
 .slider_section {
   background-color: #f6f0ff;
-  padding: 120px 60px;
+  padding: 20px 60px;
   text-align: center;
 }
 
@@ -320,7 +320,7 @@ slider_section .swiper-slide p {
 
 .about_section {
   background-color: #f6f0ff;
-  padding: 60px 20px;
+    padding: 20px 60px;
 }
 
 .about_section .detail-box a {
@@ -342,7 +342,7 @@ slider_section .swiper-slide p {
   color: #832eff;
   text-align: center;
   background-color: #fff0f5;
-  padding: 50px 20px;
+    padding: 20px 60px;
 }
 
 .service_section .heading_container {
@@ -496,7 +496,7 @@ slider_section .swiper-slide p {
 
 .work_section {
   background-color: #f6f0ff;
-  padding: 60px 20px;
+    padding: 20px 60px;
 }
 
 .work_section .heading_container {
@@ -570,7 +570,7 @@ slider_section .swiper-slide p {
 /* 5 team section */
 .team_section {
   background-color: #f6f0ff;
-  padding: 120px 60px;
+   padding: 20px 60px;
   text-align: center;
 }
 
@@ -611,7 +611,7 @@ team_section .swiper-slide p {
 /* client section */
 .client_section {
   background-color: #f6f0ff;
-  padding: 120px 60px;
+   padding: 20px 60px;
   text-align: center;
 }
 
@@ -653,7 +653,7 @@ client_section .swiper-slide p {
 
 .contact_section {
   background-color: #f6f0ff;
-  padding: 60px 20px;
+    padding: 20px 60px;
 }
     
 .contact_section .heading_container {
