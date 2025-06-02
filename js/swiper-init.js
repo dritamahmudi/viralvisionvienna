@@ -5,7 +5,7 @@ new Swiper('.swiper-sliders', {
     spaceBetween: 20,
     autoplay: {
       delay: 3000,
-      disableOnInteraction: false,
+      disableOnInteraction: on,
     },
     pagination: {
       el: '.swiper-sliders .swiper-pagination', // WICHTIG: Spezifischer Selektor
