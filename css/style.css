@@ -1,5 +1,4 @@
 body, p, span, a, div {
-  @include main-font;
   color: #0c0c0c;
   background-color: #ffffff;
   font-family: 'Poppins', sans-serif;
@@ -56,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
           align-items: flex-start;
 }
 
-.heading_container .h2 {
+.heading_container h2 {
   position: relative;
   font-weight: bold;
   color: #832eff;
@@ -215,12 +214,12 @@ a:focus {
   align-items: center; /* Vertikale Ausrichtung */
 }
 
-.quote_btn-container .a {
+.quote_btn-container a {
   color: #832eff;
   margin-right: 65px;
 }
 
-.quote_btn-container .img {
+.quote_btn-container img {
   width: 15px;
   margin: 0 25px;
 }
@@ -256,13 +255,13 @@ a:focus {
   transform: scale(1.03);
 }
 
- .slider_section .swiper-slide .img {
+ .slider_section .swiper-slide img {
   width: 150px;
   height: 150px;
   margin-bottom: 15px;
 }
 
-.slider_section .swiper-slide .p {
+.slider_section .swiper-slide p {
   font-style: italic;
   margin-bottom: 10px;
 }
@@ -276,7 +275,7 @@ a:focus {
           justify-content: center;
 }
 
-.slider_section .btn-box .a {
+.slider_section .btn-box a {
   display: inline-block;
   padding: 10px 35px;
   background-color: #ff4ff3;
@@ -310,11 +309,11 @@ a:focus {
           align-items: center;
 }
 
-.about_section .img-box .img {
+.about_section .img-box img {
   max-width: 100%;
 }
 
-.about_section .detail-box .p {
+.about_section .detail-box p {
   margin-top: 25px;
 }
 
