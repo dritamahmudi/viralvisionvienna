@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Abstand nach unten, damit der Content nicht unter dem Header liegt */
 body {
-  padding-top: 80px; /* Passe den Wert je nach Header-Höhe an */
+  padding-top: 40px; /* Passe den Wert je nach Header-Höhe an */
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -625,24 +625,24 @@ a:focus {
 }
 
 
-client_section .swiper-slide {
+.client_section .swiper-slide {
   background: #f5f5f5;
   border-radius: 10px;
   padding: 20px;
   transition: transform 0.3s ease;
 }
 
-client_section .swiper-slide:hover {
+.client_section .swiper-slide:hover {
   transform: scale(1.03);
 }
 
- client_section .swiper-slide img {
+ .client_section .swiper-slide img {
   width: 100px;
   height: auto;
   margin-bottom: 15px;
 }
 
-client_section .swiper-slide p {
+.client_section .swiper-slide p {
   font-style: italic;
   margin-bottom: 10px;
 }
@@ -663,7 +663,7 @@ client_section .swiper-slide p {
      padding-top: 30px;
 }
 
-.contact_section form .form-control {
+.contact_section .form .form-control {
   border: none;
   background-color: #d9acfc;
   outline: none;
