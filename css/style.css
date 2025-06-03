@@ -1,5 +1,5 @@
 body, p, span, a, div {
-   @include main-font;
+  @include main-font;
   color: #0c0c0c;
   background-color: #ffffff;
   font-family: 'Poppins', sans-serif;
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Abstand nach unten, damit der Content nicht unter dem Header liegt */
 body {
-  padding-top: 20px; /* Passe den Wert je nach Header-Höhe an */
+  padding-top: 80px; /* Passe den Wert je nach Header-Höhe an */
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -143,7 +143,7 @@ a:focus {
   margin-top: 45px;
 }
 
-.navbar-brand .span {
+.navbar-brand span {
   font-size: 30px;
   font-weight: 750;
   color: #832eff;
@@ -663,7 +663,7 @@ a:focus {
      padding-top: 30px;
 }
 
-.contact_section .form .form-control {
+.contact_section form .form-control {
   border: none;
   background-color: #d9acfc;
   outline: none;
@@ -928,5 +928,3 @@ a:focus {
   color: #832eff;
 }
 /*# sourceMappingURL=style.css.map */
-
-
