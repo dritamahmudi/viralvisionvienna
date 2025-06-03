@@ -64,18 +64,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;     /* Kompaktere Textzeilen */
 }
 
-.heading_container h2::before {
-  content: "";
-  position: absolute;
-  background-color: #832eff; /*PunktNeben*/
-  top: 50%;
-  border-radius: 100%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  width: 10px;          /* Punkt verkleinern */
-  height: 10px;
-  right: -15px;         /* Näher an die Überschrift rücken */
-}
 
 /*header section*/
 .sub_page .footer_bg {
@@ -816,19 +804,6 @@ a:focus {
   position: relative;
 }
 
-.info_section .info_links ul li a::before {
-  display: none;
-  content: "";
-  position: absolute;
-  left: -15px;
-  top: 50%;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  background-color: #832eff;
-}
 
 .info_section .info_links ul li a:hover {
   color: #832eff;
@@ -838,9 +813,6 @@ a:focus {
   color: #ff4ff3;
 }
 
-.info_section .info_links ul li.active a::before {
-  display: block;
-}
 
 
 .info_section .info_links h4 {
