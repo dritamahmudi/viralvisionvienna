@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Abstand nach unten, damit der Content nicht unter dem Header liegt */
 body {
-  padding-top: 80px; /* Passe den Wert je nach Header-Höhe an */
+  padding-top: 20px; /* Passe den Wert je nach Header-Höhe an */
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
