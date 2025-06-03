@@ -160,7 +160,7 @@
 @media (max-width: 420px) {
   .navbar-brand {
     margin-top:35px;
-    margin-right:-6px;
+    margin-right: -35px;
   }
   .slider_section .detail_box h1 {
     font-size: 3rem;
