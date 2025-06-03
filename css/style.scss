@@ -83,17 +83,6 @@ h1, h2, h3, h4, h5, h6 {
     color: $purpel;
 
 
-    &::before {
-      content: "";
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      background-color: $purpel;
-      top: 50%;
-      right: -30px;
-      border-radius: 100%;
-      transform: translateY(-50%);
-    }
   }
 }
 
