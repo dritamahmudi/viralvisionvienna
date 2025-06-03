@@ -53,26 +53,28 @@ h1, h2, h3, h4, h5, h6 {
           flex-direction: column;
   -webkit-box-align: start;
       -ms-flex-align: start;
-          align-items: flex-start;
+          align-items: center;
 }
 
 .heading_container h2 {
   position: relative;
   font-weight: bold;
   color: #832eff;
+  margin-bottom: 5px;   /* Abstand nach unten reduzieren */
+  line-height: 1.2;     /* Kompaktere Textzeilen */
 }
 
 .heading_container h2::before {
   content: "";
   position: absolute;
-  width: 20px;
-  height: 20px;
   background-color: #832eff; /*PunktNeben*/
   top: 50%;
-  right: -30px;
   border-radius: 100%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  width: 10px;          /* Punkt verkleinern */
+  height: 10px;
+  right: -15px;         /* Näher an die Überschrift rücken */
 }
 
 /*header section*/
