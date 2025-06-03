@@ -60,7 +60,7 @@
     z-index: 999;
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    font-size: 24px;    /* Überschrift kleiner */
+    font-size: 18px;    /* Überschrift kleiner */
   }
 
   span {
