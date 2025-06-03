@@ -60,6 +60,8 @@
     z-index: 999;
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 24px;    /* Überschrift kleiner */
+    line-height: 1.1;
   }
   .slider_section{
     padding: 100px 20px 175px 20px;
