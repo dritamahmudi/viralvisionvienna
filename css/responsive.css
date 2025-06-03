@@ -69,6 +69,10 @@
     color: $purpel;
     text-transform: uppercase;
   }
+  .navbar-brand {
+    margin-top:35px;
+    margin-right:-6px;
+  }
     
   }
   .slider_section{
@@ -143,12 +147,21 @@
 }
 
 @media (max-width: 576px) {
+  .navbar-brand {
+    margin-top:35px;
+    margin-right:-6px;
+  }
+  
   .slider_section .detail_box h1 {
     font-size: 3.5rem;
   }
 }
 
 @media (max-width: 420px) {
+  .navbar-brand {
+    margin-top:35px;
+    margin-right:-6px;
+  }
   .slider_section .detail_box h1 {
     font-size: 3rem;
   }
