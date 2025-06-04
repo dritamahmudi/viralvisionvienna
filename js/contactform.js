@@ -35,7 +35,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
     
             try {
                 const formData = new FormData(form);
-                const response = await fetch("https://misty-water-4a11.viralvision.workers.dev", {
+                const response = await fetch("https://contactform.viralvision.workers.dev", {
                     method: "POST",
                     body: JSON.stringify(Object.fromEntries(formData)),
           
