@@ -1,3 +1,2 @@
 name = "contactform"
 main = "worker/contactForm.js"  # oder der Pfad zu Ihrer Hauptdatei
-WRANGLER_LOG=debug wrangler deploy
