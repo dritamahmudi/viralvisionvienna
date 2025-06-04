@@ -1,3 +1,2 @@
-name = "my-worker"
-compatibility_date = "2025-06-04"
-main = "src/index.ts"  # oder der Pfad zu Ihrer Hauptdatei
+name = "contactForm.js"
+main = "worker/contactForm.js"  # oder der Pfad zu Ihrer Hauptdatei
