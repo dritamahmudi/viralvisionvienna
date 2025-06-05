@@ -21,8 +21,11 @@ async function sendMessage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: message })
     });
+      console.log("Response-Objekt:", response);
 
     const data = await response.json();
+     console.log("data:", data);
+      
     appendMessage("Chat-OT", data.response, "bot");
   } catch (error) {
     appendMessage("Fehler", "Es gab ein Problem mit der Verbindung.", "bot");
