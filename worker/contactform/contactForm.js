@@ -46,7 +46,7 @@ export default {
       console.log("Resend Payload:", JSON.stringify(resendPayload, null, 2));
 
       // Send to Resend API
-      const resendResponse = await fetch("https://api.resend.com/emails-test", {
+      const resendResponse = await fetch("https://api.resend.com/emails", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
