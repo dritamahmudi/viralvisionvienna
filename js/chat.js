@@ -13,6 +13,7 @@ async function sendMessage() {
   appendMessage("Du", message, "user");
   userInput.value = "";
 
+    //Mit fetch wird die Nachricht als POST-Request an deinen Server (z.B. https://viralvisionvienna-chatbot.onrender.com) geschickt.
   try {
       console.debug(" chatBox: ", chatBox.textContent);
       console.debug("message", message);
