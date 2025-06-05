@@ -1,3 +1,4 @@
+//worker cloudflare-render
 export default {
   async fetch(request, env) {
     // Nur POST-Anfragen erlauben (für deinen Chatbot)
