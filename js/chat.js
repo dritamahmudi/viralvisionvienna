@@ -1,5 +1,12 @@
+function logError(line) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    console.error.apply(console, ["[" + line + "]:"].concat(args));
+}
+
 const chatBox = document.getElementById("chatBox");
 const userInput = document.getElementById("userInput");
+ logError(1,"chatBox ",chatBox.value);
+ logError(2,"chatBox ",userInput.value);
 
 async function sendMessage() {
   const message = userInput.value.trim();
@@ -20,6 +27,7 @@ async function sendMessage() {
   } catch (error) {
     appendMessage("Fehler", "Es gab ein Problem mit der Verbindung.", "bot");
     console.error(error);
+     logError(30,"Error:  ",error);
   }
 }
 
