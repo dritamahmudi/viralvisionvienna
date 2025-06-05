@@ -6,7 +6,7 @@ export default {
       return new Response("Method not allowed", { status: 405 });
     }
 
-    const RENDER_URL = "https://viralvisionvienna-chatbot-test.onrender.com";
+    const RENDER_URL = "https://viralvisionvienna-chatbot.onrender.com";
     try {
       // Anfrage an Render weiterleiten
       const response = await fetch(RENDER_URL, {
