@@ -1,4 +1,4 @@
-//worker cloudflare-render
+//worker cloudflare-render-testcommit
 export default {
   async fetch(request, env) {
     // Nur POST-Anfragen erlauben (für deinen Chatbot)
