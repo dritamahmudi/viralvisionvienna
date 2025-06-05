@@ -1,5 +1,5 @@
 {
   "name": "render",
-  "main": "render.js",
-  "compatibility_date": "2025-06-05"
+  "compatibility_date": "2025-06-05",
+  "main": "render.js"
 }
