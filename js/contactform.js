@@ -1,19 +1,19 @@
-// Der Code verarbeitet Daten aus einem HTML-Formular, wandelt sie in ein geeignetes Format um und sendet sie an einen Cloudflare Worker (Serverless-Funktion) zur weiteren Verarbeitung.
-// Eine Hilfsfunktion zum Loggen von Fehlern mit Zeilennummern
+// The code processes data from an HTML form, converts it into a suitable format, and sends it to a Cloudflare Worker (serverless function) for further processing.
+// A helper function for logging errors with line numbers
 function logError(line) {
     var args = Array.prototype.slice.call(arguments, 1);
     console.error.apply(console, ["[" + line + "]:"].concat(args));
 }
-//Event-Listener für das Formular; Faengt das Absenden des Formulars mit der ID contactForm ab und verhindert das Standardverhalten (Seitenneuladung).
+// Event listener for the form; catches the submission of the form with ID contactForm and prevents default behavior (page reload).
 document.getElementById("contactForm").addEventListener("submit", async (e) => {
-    // Unterbricht den normalen Submit-Prozess
+    // Interrupts the normal submit process
             e.preventDefault();
     
-    //Variableninitialisierung
+    // Variable initialization
             const form = e.target;
             const button = form.querySelector("button[type='submit']");
             
-            // Wichtig: Prüfe, ob die Elemente existieren!
+            // Important: Check if the elements exist!
             const loading = document.getElementById("loading");
             const errorDiv = document.getElementById("error");
             const successDiv = document.getElementById("success");
@@ -22,26 +22,26 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
            logError(5,"nameValue = ",nameValue);
     
             if (!loading || !errorDiv || !successDiv) {
-                  logError(9,"Fehler: Einige Feedback-Elemente fehlen im HTML!");
+                  logError(9,"Error: Some feedback elements are missing in HTML!");
                 return;
             }
 
-            // Reset Zustand
+            // Reset state
             errorDiv.textContent = "";
             errorDiv.style.display = "none";
 
             successDiv.textContent = "";
             successDiv.style.display = "none";
-       // Deaktiviert den Submit-Button und zeigt die Ladeanzeige an, um Mehrfachklicks zu verhindern
+       // Disables the submit button and shows loading indicator to prevent multiple clicks
             button.disabled = true;
             loading.style.display = "block";
 
-    //Formulardaten vorbereiten,Erstellt ein FormData-Objekt aus dem Formular
+    // Prepare form data, creates a FormData object from the form
           const formDataTest = new FormData(form);
           logError(8,"formDataTest = ",JSON.stringify(Object.fromEntries(formDataTest)));
     
             try {
-                // FormData wird in ein einfaches Objekt umgewandelt (Object.fromEntries). Das Objekt wird als JSON-String an den Server gesendet.
+                // FormData is converted to a simple object (Object.fromEntries). The object is sent to server as JSON string.
         
                 const formData = new FormData(form);
                 const response = await fetch("https://contactform.viralvision.workers.dev", {
@@ -49,13 +49,13 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
                     body: JSON.stringify(Object.fromEntries(formData)),
           
                });
-               //Verarbeitung der Server-Antwort
+               // Process server response
                 const result = await response.json();
                 logError(6,"index.html response.text() = ",response);
                 logError(7,"index.html result.text() = ",result);
                 
                 if (result.success) {
-                    successDiv.textContent = "Nachricht erfolgreich gesendet!";
+                    successDiv.textContent = "Message sent successfully!";
                     successDiv.style.display = "block";
                     loading.style.display = "none";
                     form.reset();
@@ -63,20 +63,20 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
                     const emailValue = form.elements["email"].value; // ""
                     const textValue = form.elements["text"].value;
                 } else {
-                    errorDiv.textContent = "Fehler Unbekannter Fehler";
+                    errorDiv.textContent = "Error: Unknown error";
                     errorDiv.style.display = "block";
                     loading.style.display = "none";
                 }
             }
-                //Fehlerbehandlung
+                // Error handling
              catch (error) {
-                    logError(40, "Netzwerkfehler – bitte versuche es später erneut.", error);
-                    errorDiv.textContent = "Netzwerkfehler – bitte versuche es später erneut.";
+                    logError(40, "Network error - please try again later.", error);
+                    errorDiv.textContent = "Network error - please try again later.";
                     errorDiv.style.display = "block";
                     loading.style.display = "none";
                } finally {
-                 //Stellt sicher, dass der Submit-Button wieder aktiviert und die Ladeanzeige ausgeblendet wird – unabhängig vom Erfolg oder Fehler.
+                 // Ensures the submit button is re-enabled and loading indicator is hidden - regardless of success or failure
                 button.disabled = false;
-                if (loading) loading.style.display = "none"; // Sicherheitsprüfung
+                if (loading) loading.style.display = "none"; // Safety check
             }
         });
