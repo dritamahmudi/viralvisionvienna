@@ -1,3 +1,10 @@
+[[workers]]
 name = "contactform"
 compatibility_date = "2025-06-04"
 main = "worker/contactForm.js"  # oder der Pfad zu Ihrer Hauptdatei
+
+
+[[workers]]
+name = "render"
+route = "api.viralvisionvienna.com/
+main = "worker/render.js"
