@@ -1,1 +1,1 @@
-js/contactform.js -  Der Code verarbeitet Daten aus einem HTML-Formular, wandelt sie in ein geeignetes Format um und sendet sie an einen Cloudflare Worker (Serverless-Funktion) zur weiteren Verarbeitung.
+js/contactform.js -  The code processes data from an HTML form, converts it into a suitable format, and sends it to a Cloudflare Worker (serverless function) for further processing.
