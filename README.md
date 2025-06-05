@@ -1,0 +1,1 @@
+js/contactform.js -  Der Code verarbeitet Daten aus einem HTML-Formular, wandelt sie in ein geeignetes Format um und sendet sie an einen Cloudflare Worker (Serverless-Funktion) zur weiteren Verarbeitung.
