@@ -1,0 +1,8 @@
+name = "contactform"
+compatibility_date = "2025-06-04"
+main = "contactForm.js"
+[observability.logs]
+enabled = true
+
+
+
