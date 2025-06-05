@@ -15,11 +15,12 @@ jobs:
           node-version: '20'
       - name: Install Wrangler
         run: npm install -g wrangler
-      - name: Deploy render Worker
-        run: wrangler deploy worker/render/render.js --name render
+      - name: Deploy contactform Worker
+        run: wrangler deploy worker/contactform/contactForm.js --name contactform
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      - name: Deploy contactForm Worker
-        run: wrangler deploy worker/contactform/contactForm.js --name contactform
+          
+      - name: Deploy render Worker
+        run: wrangler deploy worker/render/render.js --name render        
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
