@@ -14,9 +14,9 @@ async function sendMessage() {
   userInput.value = "";
 
   try {
-    logError(1,"chatBox ",chatBox.text);
-     logError(2,"userInput ",userInput.text);
-logError(3,"message ",message.text);
+    logError(1, "chatBox", chatBox.textContent);
+    logError(2, "userInput", userInput.value);
+    logError(3, "message", message);
     const response = await fetch("https://viralvisionvienna-chatbot.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
