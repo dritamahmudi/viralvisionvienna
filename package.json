@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "deploy:all": "wrangler deploy && wrangler deploy --name render"
+  }
+}
