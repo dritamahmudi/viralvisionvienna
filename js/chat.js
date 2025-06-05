@@ -5,8 +5,6 @@ function logError(line) {
 
 const chatBox = document.getElementById("chatBox");
 const userInput = document.getElementById("userInput");
- logError(1,"chatBox ",chatBox.value);
- logError(2,"chatBox ",userInput.value);
 
 async function sendMessage() {
   const message = userInput.value.trim();
@@ -16,6 +14,9 @@ async function sendMessage() {
   userInput.value = "";
 
   try {
+    logError(1,"chatBox ",chatBox.text);
+     logError(2,"userInput ",userInput.text);
+logError(3,"message ",message.text);
     const response = await fetch("https://viralvisionvienna-chatbot.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
