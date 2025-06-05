@@ -21,11 +21,14 @@ async function sendMessage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: message })
     });
-      console.debug("Response-Objekt:",  response.text());
+      console.debug("Response-Objekt:",  response);
 
     const data = await response.json();
      console.debug("data:", data);
 
+      console.debug("Status:", response.status);
+    console.debug("OK?", response.ok);
+    console.debug("Headers:", response.headers);
       
     appendMessage("Chat-OT", data.response, "bot");
   } catch (error) {
