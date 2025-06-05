@@ -14,17 +14,18 @@ async function sendMessage() {
   userInput.value = "";
 
   try {
-      console.debug("chatBox", chatBox.textContent);
+      console.debug(" chatBox: ", chatBox.textContent);
       console.debug("message", message);
     const response = await fetch("https://viralvisionvienna-chatbot.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: message })
     });
-      console.log("Response-Objekt:", response);
+      console.log("Response-Objekt:",  response.text());
 
     const data = await response.json();
      console.log("data:", data);
+
       
     appendMessage("Chat-OT", data.response, "bot");
   } catch (error) {
