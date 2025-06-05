@@ -6,5 +6,5 @@ main = "worker/contactForm.js"  # oder der Pfad zu Ihrer Hauptdatei
 
 [[workers]]
 name = "render"
-route = "api.viralvisionvienna.com/"
+compatibility_date = "2025-06-05"
 main = "worker/render.js"
