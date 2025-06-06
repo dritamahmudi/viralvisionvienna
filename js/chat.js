@@ -33,7 +33,7 @@ async function sendMessage() {
     console.debug("OK?", response.ok);
     console.debug("Headers:", response.headers);
       
-    appendMessage("Chat-OT", data.response, "bot");
+    appendMessage("Chat-OT", data.HelloPost, "bot");
   } catch (error) {
     appendMessage("Fehler", "Es gab ein Problem mit der Verbindung.", "bot");
     console.error(error);
