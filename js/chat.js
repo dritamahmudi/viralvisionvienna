@@ -18,7 +18,7 @@ async function sendMessage() {
       console.debug(" chatBox: ", chatBox.textContent);
       console.debug("message", message);
     const response = await fetch("https://viralvisionvienna-chatbot.onrender.com", {
-      method: "GET",
+      method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: message })
     });
