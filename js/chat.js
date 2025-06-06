@@ -20,7 +20,7 @@ async function sendMessage() {
 //    const response = await fetch("https://viralvisionvienna-chatbot.onrender.com", {
      const response = await fetch("https://stunning-space-meme-w5q5vp79pg9cg9g5-10000.app.github.dev", {
   
-      method: "POST",
+      method: "GET",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: message })
     });
