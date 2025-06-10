@@ -443,7 +443,7 @@ a:focus {
 }
 
 .service_section .detail_container .box .top-box .icon-box {
-  width: 50px;
+  width: 230px;
   margin-right: 15px;
 }
 
@@ -515,10 +515,11 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  flex-direction: column;
 }
 
 .work_section .detail_container .box .top-box .icon-box {
-  width: 50px;
+  width: 230px;
   margin-right: 15px;
 }
 
@@ -595,6 +596,9 @@ a:focus {
   font-style: italic;
   margin-bottom: 10px;
 }
+.team_section .swiper-slide h4 {
+  color: #832eff;
+}
 /* ende team section */
 
 
@@ -636,6 +640,9 @@ a:focus {
 .client_section .swiper-slide p {
   font-style: italic;
   margin-bottom: 10px;
+}
+.client_section .swiper-slide h4 {
+  color: #832eff;
 }
 /* ende client section */
 
