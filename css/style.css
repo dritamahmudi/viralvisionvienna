@@ -325,6 +325,9 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #832eff;
 }
+.about_section .detail-box h2 {
+  color: #832eff;
+}
 
 
 .service_section {
