@@ -27,10 +27,16 @@ $lilasektion: #f6f0ff;
   font-weight: bold;
 }
 
-body, p, span, a, div {
+body, p, span, a {
   @include main-font;
    color: #0c0c0c;
   background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+div {
+  @include main-font;
+   color: #0c0c0c;
   font-family: 'Poppins', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -871,3 +877,4 @@ a:focus {
         margin-bottom: 15px;
     }
 }
+
