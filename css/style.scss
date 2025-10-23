@@ -29,8 +29,13 @@ $lilasektion: #f6f0ff;
 
 body, p, span, a, div {
   @include main-font;
-   color: #0c0c0c;
+  color: #0c0c0c;
   background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+span {
+  @include main-font;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -872,5 +877,6 @@ a:focus {
         margin-bottom: 15px;
     }
 }
+
 
 
