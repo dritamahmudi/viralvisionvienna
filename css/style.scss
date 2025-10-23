@@ -27,7 +27,7 @@ $lilasektion: #f6f0ff;
   font-weight: bold;
 }
 
-body, p, span, a, div {
+body, p, span, a {
   @include main-font;
   color: #0c0c0c;
   background-color: #ffffff;
@@ -877,6 +877,7 @@ a:focus {
         margin-bottom: 15px;
     }
 }
+
 
 
 
