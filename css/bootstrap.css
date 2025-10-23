@@ -4363,6 +4363,16 @@ input[type="button"].btn-block {
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
+  .navbarSupportedContent,
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;           /* Bootstrap benötigt display:flex, beibehalten */
+    flex: 0 0 auto !important;          /* verhindert, dass die Box sich aufbläht */
+    width: auto !important;             /* überschreibt problematische feste Breiten wie 278% */
+    max-width: 900px !important;        /* maximale Breite (anpassen: z.B. 700px oder 70%) */
+    margin: 0 auto !important;          /* zentriert die Navigation */
+    justify-content: center;            /* optional: links/center/space-between */
+    }
+    
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
